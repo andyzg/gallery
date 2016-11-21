@@ -4,10 +4,15 @@ body {
 
 #container {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .header {
   font-size: 36px;
   margin-top: 124px;
+  margin-bottom: 32px;
+}
+
+section {
+  margin-bottom: 64px;
 }
