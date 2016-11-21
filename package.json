@@ -1,0 +1,22 @@
+{
+  "name": "gallery",
+  "version": "1.0.0",
+  "description": "Travel photography",
+  "main": "gallery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyzg/gallery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andyzg/gallery/issues"
+  },
+  "homepage": "https://github.com/andyzg/gallery#readme",
+  "dependencies": {
+    "image-size": "^0.5.0"
+  }
+}

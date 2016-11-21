@@ -1,0 +1,13 @@
+body {
+  font-family: 'Avenir Next', sans-serif;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.header {
+  font-size: 36px;
+  margin-top: 124px;
+}
