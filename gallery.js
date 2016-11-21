@@ -60,6 +60,9 @@ var Gallery = (function() {
     }
     var aspectRatio = sumWidth / parseFloat(targetWidth);
     var finalHeight = this._maxHeight / aspectRatio;
+    if (isIncomplete) {
+      finalHeight = this._maxHeight;
+    }
 
 
     for (var i = 0; i < photos.length; i++) {
