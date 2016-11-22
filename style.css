@@ -1,5 +1,5 @@
 body {
-  font-family: 'Avenir Next', sans-serif;
+  font-family: 'Helvetica', 'Verdana', sans-serif;
 }
 
 #container {
@@ -10,6 +10,7 @@ body {
 
 .header {
   font-size: 36px;
+  font-weight: 700;
   margin-top: 124px;
   margin-bottom: 64px;
 }
