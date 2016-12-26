@@ -1,21 +1,23 @@
 var Gallery = (function() {
 
-  var WIDTH = 1000;
-
   var Gallery = function(config, opts) {
     this._config = config;
     this._domId = opts.domId;
     this._maxHeight = opts.maxHeight;
     this._spacing = opts.spacing;
 
+    this.rootElem = document.getElementById(this._domId);
+
+    var bounds = this.rootElem.getBoundingClientRect();
+    this.currentWidth = bounds.right - bounds.left;
+
     this.render();
   };
 
   Gallery.prototype.render = function() {
-    var rootElem = document.getElementById(this._domId);
     for (var section in this._config) {
       var section = this.createSection(section, this._config[section])
-      rootElem.appendChild(section);
+      this.rootElem.appendChild(section);
     }
   };
 
@@ -32,7 +34,7 @@ var Gallery = (function() {
         var photo = photos.pop();
         maxWidth += photo.getWidth(this._maxHeight) + this._spacing;
 
-        if (maxWidth - this._spacing > WIDTH) {
+        if (maxWidth - this._spacing > this.currentWidth) {
           sectionElem.appendChild(this.createRow(section, rowPhotos));
           break;
         }
@@ -54,7 +56,7 @@ var Gallery = (function() {
     rowElem.style.marginBottom = (this._spacing - 3) + 'px';
 
     // Calculate height of element
-    var targetWidth = WIDTH - (photos.length - 1) * this._spacing;
+    var targetWidth = this.currentWidth - (photos.length - 1) * this._spacing;
     var sumWidth = 0;
     for (var i in photos) {
       sumWidth += photos[i].getWidth(this._maxHeight);
@@ -68,7 +70,6 @@ var Gallery = (function() {
 
     for (var i = 0; i < photos.length; i++) {
       var photo = photos[i];
-      console.log(photo);
       var image = new Image(photo.getWidth(finalHeight), finalHeight);
       image.src = photo.getPath();
       if (i !== 0) {
