@@ -1,6 +1,6 @@
 function reqListener() {
   new Gallery(JSON.parse(this.responseText), {
-    minHeight: 150,
+    domId: 'gallery',
     maxHeight: 250,
     spacing: 10
   });

@@ -4,7 +4,7 @@ var Gallery = (function() {
 
   var Gallery = function(config, opts) {
     this._config = config;
-    this._minHeight = opts.minHeight;
+    this._domId = opts.domId;
     this._maxHeight = opts.maxHeight;
     this._spacing = opts.spacing;
 
@@ -12,24 +12,24 @@ var Gallery = (function() {
   };
 
   Gallery.prototype.render = function() {
+    var rootElem = document.getElementById(this._domId);
     for (var section in this._config) {
-      this.renderSection(section, this._config[section]);
+      var section = this.createSection(section, this._config[section])
+      rootElem.appendChild(section);
     }
   };
 
-  Gallery.prototype.renderSection = function(section, photoObjs) {
+  Gallery.prototype.createSection = function(section, photoObjs) {
     var photos = photoObjs.map(function(p) { return new Photo(p); });
-    var sectionElem = document.getElementById(section);
-    console.log(sectionElem);
+    var sectionElem = document.createElement('section');
+    sectionElem.id = section;
 
     while (photos.length > 0) {
-      var minWidth = 0;
       var maxWidth = 0;
       var rowPhotos = [];
 
       while (true) {
         var photo = photos.pop();
-        minWidth += photo.getWidth(this._minHeight) + this._spacing;
         maxWidth += photo.getWidth(this._maxHeight) + this._spacing;
 
         if (maxWidth - this._spacing > WIDTH) {
@@ -43,8 +43,9 @@ var Gallery = (function() {
           break;
         }
       }
-
     }
+
+    return sectionElem;
   };
 
   Gallery.prototype.createRow = function(section, photos, isIncomplete) {
