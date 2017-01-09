@@ -70,8 +70,10 @@ var Gallery = (function() {
 
     for (var i = 0; i < photos.length; i++) {
       var photo = photos[i];
-      var image = new Image(photo.getWidth(finalHeight), finalHeight);
+      var image = new Image();
       image.src = photo.getPath();
+      image.style.width = photo.getWidth(finalHeight) + 'px';
+      image.style.height = finalHeight + 'px';
       if (i !== 0) {
         image.style.marginLeft = this._spacing + 'px';
       }
