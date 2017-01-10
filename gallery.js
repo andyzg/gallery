@@ -1,27 +1,39 @@
-var Gallery = (function() {
-
-  var Gallery = function(config, opts) {
-    this._config = config;
-    this._domId = opts.domId;
-    this._maxHeight = opts.maxHeight;
-    this._spacing = opts.spacing;
-
-    this.rootElem = document.getElementById(this._domId);
-
-    var bounds = this.rootElem.getBoundingClientRect();
-    this.currentWidth = bounds.right - bounds.left;
-
-    this.render();
+class Config {
+  constructor(config, opts) {
+    this.data = config;
+    this.maxHeight = opts.maxHeight;
+    this.spacing = opts.spacing;
+    this.layout = opts.layout;
   };
 
-  Gallery.prototype.render = function() {
-    for (var section in this._config) {
-      var section = this.createSection(section, this._config[section])
-      this.rootElem.appendChild(section);
+  photos(album) {
+    return this.data[album];
+  }
+}
+
+class Renderer {
+  constructor(domId) {
+    this._rootElem = document.getElementById(domId);
+    var bounds = this._rootElem.getBoundingClientRect();
+    this._currentWidth = bounds.right - bounds.left;
+  }
+
+  render(config) {}
+}
+
+class HorizontalRenderer extends Renderer {
+  render(config) {
+    for (var section in config.data) {
+      var section = this.createSection(config, section, config.photos(section))
+      this.rootElem().appendChild(section);
     }
-  };
+  }
 
-  Gallery.prototype.createSection = function(section, photoObjs) {
+  rootElem() {
+    return this._rootElem;
+  }
+
+  createSection(config, section, photoObjs) {
     var photos = photoObjs.map(function(p) { return new Photo(p); });
     var sectionElem = document.createElement('section');
     sectionElem.id = section;
@@ -32,76 +44,76 @@ var Gallery = (function() {
 
       while (true) {
         var photo = photos.pop();
-        maxWidth += photo.getWidth(this._maxHeight) + this._spacing;
+        maxWidth += photo.width(config.maxHeight) + config.spacing;
 
-        if (maxWidth - this._spacing > this.currentWidth) {
-          sectionElem.appendChild(this.createRow(section, rowPhotos));
+        if (maxWidth - config.spacing > this._currentWidth) {
+          sectionElem.appendChild(this.createRow(config, section, rowPhotos));
           break;
         }
         rowPhotos.push(photo);
 
         if (photos.length === 0) {
-          sectionElem.appendChild(this.createRow(section, rowPhotos, true));
+          sectionElem.appendChild(this.createRow(config, section, rowPhotos, true));
           break;
         }
       }
     }
 
     return sectionElem;
-  };
+  }
 
-  Gallery.prototype.createRow = function(section, photos, isIncomplete) {
+  createRow(config, section, photos, isIncomplete=false) {
     var rowElem = document.createElement('div');
-    rowElem.className = 'section__row';
-    rowElem.style.marginBottom = (this._spacing - 3) + 'px';
+    rowElem.className = 'sectionrow';
+    rowElem.style.marginBottom = (config.spacing - 3) + 'px';
 
     // Calculate height of element
-    var targetWidth = this.currentWidth - (photos.length - 1) * this._spacing;
+    var targetWidth = this._currentWidth - (photos.length - 1) * config.spacing;
     var sumWidth = 0;
     for (var i in photos) {
-      sumWidth += photos[i].getWidth(this._maxHeight);
+      sumWidth += photos[i].width(config.maxHeight);
     }
     var aspectRatio = sumWidth / parseFloat(targetWidth);
-    var finalHeight = this._maxHeight / aspectRatio;
+    var finalHeight = config.maxHeight / aspectRatio;
     if (isIncomplete) {
-      finalHeight = this._maxHeight;
+      finalHeight = config.maxHeight;
     }
 
 
     for (var i = 0; i < photos.length; i++) {
       var photo = photos[i];
       var image = new Image();
-      image.src = photo.getPath();
-      image.style.width = photo.getWidth(finalHeight) + 'px';
+      image.src = photo.src();
+      image.style.width = photo.width(finalHeight) + 'px';
       image.style.height = finalHeight + 'px';
       if (i !== 0) {
-        image.style.marginLeft = this._spacing + 'px';
+        image.style.marginLeft = config.spacing + 'px';
       }
       rowElem.appendChild(image);
     }
     return rowElem;
-  };
+  }
+}
 
-  var Photo = function(p) {
-    this._path = p.path;
+
+class Photo {
+  constructor(p) {
+    this.path = p.path;
     this._width = p.width;
     this._height = p.height;
 
-    this._aspectRatio = this._width / parseFloat(this._height);
+    this.aspectRatio = this._width / parseFloat(this._height);
   };
 
-  Photo.prototype.getWidth = function(height) {
-    return height * this._aspectRatio;
-  };
+  src() {
+    return this.path;
+  }
 
-  Photo.prototype.getHeight = function(width) {
-    return width / this._aspectRatio;
-  };
+  width(height) {
+    return height * this.aspectRatio;
+  }
 
-  Photo.prototype.getPath = function() {
-    return this._path;
-  };
-
-  return Gallery;
-
-})();
+  height(width) {
+    return width / this.aspectRatio;
+  }
+}
