@@ -72,7 +72,7 @@ class HorizontalRenderer extends Renderer {
   createRow(config, section, photos, isIncomplete=false) {
     var rowElem = document.createElement('div');
     rowElem.className = 'sectionrow';
-    rowElem.style.marginBottom = (config.spacing - 3) + 'px';
+    rowElem.style.marginBottom = config.spacing + 'px';
 
     // Calculate height of element
     var targetWidth = this._currentWidth - (photos.length - 1) * config.spacing;

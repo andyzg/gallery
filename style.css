@@ -1,5 +1,5 @@
 body {
-  font-family: 'Helvetica', 'Verdana', sans-serif;
+  font-family: 'Lora', 'Helvetica', 'Verdana', sans-serif;
 }
 
 #container {
@@ -19,7 +19,12 @@ section {
   margin-bottom: 128px;
 }
 
+section img {
+  vertical-align: middle;
+}
+
 h3 {
   font-size: 24px;
-  margin-bottom: 16px;
+  margin-bottom: 36px;
+  color: #666;
 }
