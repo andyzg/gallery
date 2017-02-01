@@ -5,14 +5,20 @@ body {
 #container {
   margin: 0 auto;
   max-width: 1000px;
+  width: 100%;
 }
 
 .header {
   font-size: 36px;
   margin-top: 124px;
-  margin-bottom: 32px;
+  margin-bottom: 64px;
 }
 
 section {
-  margin-bottom: 64px;
+  margin-bottom: 128px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
 }

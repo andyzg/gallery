@@ -4,6 +4,7 @@ class Config {
     this.maxHeight = opts.maxHeight;
     this.spacing = opts.spacing;
     this.layout = opts.layout;
+    this.shuffle = opts.shuffle;
   };
 
   photos(album) {
@@ -35,22 +36,28 @@ class HorizontalRenderer extends Renderer {
 
   createSection(config, section, photoObjs) {
     var photos = photoObjs.map(function(p) { return new Photo(p); });
+    if (config.shuffle) {
+      shuffle(photos);
+    }
     var sectionElem = document.createElement('section');
     sectionElem.id = section;
 
+    var header = document.createElement('h3');
+    header.innerHTML = section;
+    sectionElem.appendChild(header);
+
     while (photos.length > 0) {
-      var maxWidth = 0;
+      var maxWidth = config.spacing * -1;
       var rowPhotos = [];
 
       while (true) {
         var photo = photos.pop();
         maxWidth += photo.width(config.maxHeight) + config.spacing;
-
+        rowPhotos.push(photo);
         if (maxWidth - config.spacing > this._currentWidth) {
           sectionElem.appendChild(this.createRow(config, section, rowPhotos));
           break;
         }
-        rowPhotos.push(photo);
 
         if (photos.length === 0) {
           sectionElem.appendChild(this.createRow(config, section, rowPhotos, true));
@@ -115,5 +122,21 @@ class Photo {
 
   height(width) {
     return width / this.aspectRatio;
+  }
+}
+
+//
+// Helpers
+//
+
+/**
+ * http://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array
+ * Shuffles array in place. ES6 version
+ * @param {Array} a items The array containing the items.
+ */
+function shuffle(a) {
+  for (let i = a.length; i; i--) {
+    let j = Math.floor(Math.random() * i);
+    [a[i - 1], a[j]] = [a[j], a[i - 1]];
   }
 }
