@@ -84,6 +84,11 @@ class HorizontalRenderer extends Renderer {
     var finalHeight = config.maxHeight / aspectRatio;
     if (isIncomplete) {
       finalHeight = config.maxHeight;
+      // If it barely reaches the max height, it looks like an error. So let's
+      // just add a ton of padding by reducing the height of the row.
+      if (sumWidth > targetWidth * 9 / 10) {
+        finalHeight = this._maxHeight * 0.9;
+      }
     }
 
 

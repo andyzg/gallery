@@ -2,7 +2,7 @@ function reqListener() {
   var renderer = new HorizontalRenderer('gallery');
   var config = new Config(JSON.parse(this.responseText), {
     layout: 'grid',
-    maxHeight: 250,
+    maxHeight: 400,
     spacing: 10,
     shuffle: true
   });
