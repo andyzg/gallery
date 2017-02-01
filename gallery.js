@@ -3,7 +3,6 @@ class Config {
     this.data = config;
     this.maxHeight = opts.maxHeight;
     this.spacing = opts.spacing;
-    this.layout = opts.layout;
     this.shuffle = opts.shuffle;
   };
 
