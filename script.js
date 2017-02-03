@@ -1,8 +1,8 @@
 function reqListener() {
-  var renderer = new HorizontalRenderer('gallery');
+  var renderer = new SquareRenderer('gallery');
   var config = new Config(JSON.parse(this.responseText), {
     maxHeight: 400,
-    spacing: 10,
+    spacing: 20,
     shuffle: true
   });
 

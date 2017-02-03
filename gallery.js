@@ -19,6 +19,95 @@ class Renderer {
   }
 
   render(config) {}
+
+  rootElem() {
+    return this._rootElem;
+  }
+
+  createHeader(title) {
+    var sectionElem = document.createElement('section');
+    sectionElem.id = title;
+    var header = document.createElement('h3');
+    header.innerHTML = title;
+    sectionElem.appendChild(header);
+    return sectionElem;
+  }
+
+  createSection(config, section, photoObjs) {
+    // TODO
+  }
+}
+
+class SquareRenderer extends Renderer {
+  render(config) {
+    for (var section in config.data) {
+      var section = this.createSection(config, section, config.photos(section))
+      this.rootElem().appendChild(section);
+    }
+  }
+
+  createSection(config, section, photoObjs) {
+    var photos = photoObjs.map((p) => { return new Photo(p); });
+    if (config.shuffle) {
+      shuffle(photos);
+    }
+    var sectionElem = this.createHeader(section);
+
+    var length = Math.ceil((this._currentWidth + config.spacing) / (config.maxHeight + config.spacing));
+    var height = this.calculateHeight(config, length);
+
+    while (photos.length > 0) {
+      var maxWidth = config.spacing * -1;
+      var rowPhotos = [];
+
+      for (var i = 0; i < length; i++) {
+        if (photos.length === 0) {
+          sectionElem.appendChild(this.createRow(config, section, rowPhotos, height));
+          break;
+        }
+
+        var photo = photos.pop();
+        maxWidth += config.maxHeight + config.spacing;
+        rowPhotos.push(photo);
+        if (maxWidth - config.spacing > this._currentWidth) {
+          sectionElem.appendChild(this.createRow(config, section, rowPhotos, height));
+          break;
+        }
+      }
+    }
+
+    return sectionElem;
+  }
+
+  createRow(config, section, photos, height) {
+    var rowElem = document.createElement('div');
+    rowElem.className = 'sectionrow';
+    rowElem.style.marginBottom = config.spacing + 'px';
+
+    for (var i = 0; i < photos.length; i++) {
+      var photo = photos[i];
+      var image = document.createElement('div');
+
+      image.style.backgroundImage = "url('" + photo.src() + "')";
+      image.style.backgroundRepeat = 'no-repeat';
+      image.style.backgroundPosition = 'center';
+      image.style.backgroundSize = 'cover'
+
+      image.style.width = height + 'px';
+      image.style.height = height + 'px';
+      image.style.display = 'inline-block';
+
+      if (i !== 0) {
+        image.style.marginLeft = config.spacing + 'px';
+      }
+      rowElem.appendChild(image);
+    }
+    return rowElem;
+  }
+
+  calculateHeight(config, length) {
+    return (this._currentWidth - (length-1) * config.spacing) / length;
+  }
 }
 
 class HorizontalRenderer extends Renderer {
@@ -29,21 +118,12 @@ class HorizontalRenderer extends Renderer {
     }
   }
 
-  rootElem() {
-    return this._rootElem;
-  }
-
   createSection(config, section, photoObjs) {
-    var photos = photoObjs.map(function(p) { return new Photo(p); });
+    var photos = photoObjs.map((p) => { return new Photo(p); });
     if (config.shuffle) {
       shuffle(photos);
     }
-    var sectionElem = document.createElement('section');
-    sectionElem.id = section;
-
-    var header = document.createElement('h3');
-    header.innerHTML = section;
-    sectionElem.appendChild(header);
+    var sectionElem = this.createHeader(section);
 
     while (photos.length > 0) {
       var maxWidth = config.spacing * -1;
