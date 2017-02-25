@@ -4,7 +4,7 @@ function reqListener() {
     maxHeight: 400,
     spacing: 10,
     shuffle: true,
-    columns: 4
+    columns: 3
   });
 
   renderer.render(config);
