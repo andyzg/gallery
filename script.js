@@ -1,9 +1,10 @@
 function reqListener() {
-  var renderer = new SquareRenderer('gallery');
+  var renderer = new VerticalRenderer('gallery');
   var config = new Config(JSON.parse(this.responseText), {
     maxHeight: 400,
-    spacing: 20,
-    shuffle: true
+    spacing: 10,
+    shuffle: true,
+    columns: 4
   });
 
   renderer.render(config);

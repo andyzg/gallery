@@ -4,6 +4,7 @@ class Config {
     this.maxHeight = opts.maxHeight;
     this.spacing = opts.spacing;
     this.shuffle = opts.shuffle;
+    this.columns = opts.columns;
   };
 
   photos(album) {
@@ -20,6 +21,14 @@ class Renderer {
 
   render(config) {}
 
+  getPhotos(config, photos) {
+    var photoObjs = photos.map((p) => { return new Photo(p); });
+    if (config.shuffle) {
+      shuffle(photoObjs);
+    }
+    return photoObjs
+  }
+
   rootElem() {
     return this._rootElem;
   }
@@ -32,48 +41,113 @@ class Renderer {
     sectionElem.appendChild(header);
     return sectionElem;
   }
+}
 
-  createSection(config, section, photoObjs) {
-    // TODO
+class VerticalRenderer extends Renderer {
+  render(config) {
+    for (var section in config.data) {
+      var section = this.createSection(config,
+        section,
+        this.getPhotos(config, config.photos(section)));
+      this.rootElem().appendChild(section);
+    }
+  }
+
+  createSection(config, section, photos) {
+    var sectionElem = this.createHeader(section);
+    var length = config.columns
+    var width = (this._currentWidth - config.spacing * (config.columns-1)) * 1.0 / config.columns;
+
+    var stacks = [];
+    for (var i = 0; i < config.columns; i++) {
+      stacks.push([]);
+    }
+    var heights = new Array(config.columns).fill(0);
+
+
+    for (var i = 0; i < photos.length; i++) {
+      var nextPhoto = photos[i];
+      var index = this.getSmallestStack(heights);
+      stacks[index].push(nextPhoto);
+      heights[index] += nextPhoto.height(width);
+    }
+
+    var columnElements = document.createElement('div');
+    columnElements.style.columnCount = config.columns;
+    columnElements.style.columnGap = config.spacing + 'px';
+
+    for (var i = 0; i < stacks.length; i++) {
+      var column = document.createElement('div');
+      for (var j = 0; j < stacks[i].length; j++) {
+        column.appendChild(this.createPhotoElement(stacks[i][j], width, config));
+      }
+      column.style.width = width + 'px';
+      columnElements.appendChild(column);
+    }
+
+    sectionElem.appendChild(columnElements);
+
+    return sectionElem;
+  }
+
+  createPhotoElement(photo, width, config) {
+    var image = new Image();
+
+    image.src = photo.src();
+    image.style.width = width + 'px';
+    image.style.height = photo.height(width) + 'px';
+    image.style.marginBottom = config.spacing + 'px';
+
+    return image;
+  }
+
+  getSmallestStack(stack) {
+    var smallestIndex = 0;
+    var minHeight = Number.MAX_VALUE;
+    for (var i = 0; i < stack.length; i++) {
+      if (stack[i] === 0) {
+        return i;
+      }
+
+      if (stack[i] < minHeight) {
+        smallestIndex = i;
+        minHeight = stack[i];
+      }
+    }
+    return smallestIndex;
   }
 }
 
 class SquareRenderer extends Renderer {
   render(config) {
     for (var section in config.data) {
-      var section = this.createSection(config, section, config.photos(section))
+      var section = this.createSection(config,
+        section,
+        this.getPhotos(config, config.photos(section)));
       this.rootElem().appendChild(section);
     }
   }
 
-  createSection(config, section, photoObjs) {
-    var photos = photoObjs.map((p) => { return new Photo(p); });
-    if (config.shuffle) {
-      shuffle(photos);
-    }
+  createSection(config, section, photos) {
     var sectionElem = this.createHeader(section);
 
-    var length = Math.ceil((this._currentWidth + config.spacing) / (config.maxHeight + config.spacing));
+    // In column format, we want to precompute the height of each cell, so that
+    // the last row can have a matching width and align itself to rows above.
+    var length = config.columns ||
+      Math.ceil((this._currentWidth + config.spacing) / (config.maxHeight + config.spacing));
     var height = this.calculateHeight(config, length);
 
     while (photos.length > 0) {
-      var maxWidth = config.spacing * -1;
       var rowPhotos = [];
 
       for (var i = 0; i < length; i++) {
         if (photos.length === 0) {
-          sectionElem.appendChild(this.createRow(config, section, rowPhotos, height));
           break;
         }
 
-        var photo = photos.pop();
-        maxWidth += config.maxHeight + config.spacing;
-        rowPhotos.push(photo);
-        if (maxWidth - config.spacing > this._currentWidth) {
-          sectionElem.appendChild(this.createRow(config, section, rowPhotos, height));
-          break;
-        }
+        rowPhotos.push(photos.pop());
       }
+      sectionElem.appendChild(this.createRow(config, section, rowPhotos, height));
     }
 
     return sectionElem;
@@ -97,6 +171,7 @@ class SquareRenderer extends Renderer {
       image.style.height = height + 'px';
       image.style.display = 'inline-block';
 
+      // Only apply margins to second to last.
       if (i !== 0) {
         image.style.marginLeft = config.spacing + 'px';
       }
@@ -106,6 +181,9 @@ class SquareRenderer extends Renderer {
   }
 
   calculateHeight(config, length) {
+    if (config.columns) {
+      return (this._currentWidth - (config.columns-1) * config.spacing) / config.columns;
+    }
     return (this._currentWidth - (length-1) * config.spacing) / length;
   }
 }
@@ -113,12 +191,14 @@ class SquareRenderer extends Renderer {
 class HorizontalRenderer extends Renderer {
   render(config) {
     for (var section in config.data) {
-      var section = this.createSection(config, section, config.photos(section))
+      var section = this.createSection(config,
+        section,
+        this.getPhotos(config, config.photos(section)));
       this.rootElem().appendChild(section);
     }
   }
 
-  createSection(config, section, photoObjs) {
+  createSection(config, section, photos) {
     var photos = photoObjs.map((p) => { return new Photo(p); });
     if (config.shuffle) {
       shuffle(photos);
