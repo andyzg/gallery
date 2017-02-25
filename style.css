@@ -1,18 +1,20 @@
 body {
-  font-family: 'Lora', 'Helvetica', 'Verdana', sans-serif;
+  font-family: 'Lato', 'Helvetica', 'Verdana', sans-serif;
 }
 
 #container {
   margin: 0 auto;
-  max-width: 900px;
-  width: 100%;
+  width: 90%;
 }
 
 .header {
-  font-size: 36px;
-  font-weight: 700;
   margin-top: 124px;
-  margin-bottom: 64px;
+  margin-bottom: 32px;
+
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 section {
@@ -24,7 +26,11 @@ section img {
 }
 
 h3 {
-  font-size: 24px;
   margin-bottom: 36px;
+
   color: #666;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
 }
