@@ -34,7 +34,7 @@ def get_images(path):
         result.append({
             width: width,
             height: height,
-            path: '/' + RELATIVE_PATH + '/' + path
+            path: '/' + RELATIVE_PATH + '/' + path + '/' + img
         })
     return result
 
@@ -45,11 +45,26 @@ def write_config(config):
 
 
 def run():
+    print 'Starting to collect all albums within the /photos directory...'
     config = {}
     dirs = get_directories()
-    for path in dirs:
+    print 'Found {length} directories'.format(length=len(dirs))
+    for i, path in enumerate(dirs):
+        print str(i+1) + ': Processing photos for the album "{album}"'.format(
+            album=path)
         config[path] = get_images(path)
+
+        print '   Done processing {l} photos for "{album}"\n'.format(
+            l=len(config[path]),
+            album=path)
+
+    print 'Done processing all {length} albums'.format(length=len(dirs))
+    print 'Writing files to {path} now...'.format(path=PATH + 'config.json')
     write_config(config)
+    print '''Done writing! You may now safely close this window :)
+
+Thank you for using gallery! Share your gallery on Github!
+https://github.com/andyzg/gallery/issues/1'''
     return 0
 
 
