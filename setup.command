@@ -6,7 +6,9 @@ import os
 import sys
 import json
 
-PHOTO_PATH = './photos'
+PATH = os.path.dirname(sys.argv[0]) + '/'
+RELATIVE_PATH = 'photos'
+PHOTO_PATH = PATH + RELATIVE_PATH
 
 
 def get_directories():
@@ -32,13 +34,13 @@ def get_images(path):
         result.append({
             width: width,
             height: height,
-            path: PHOTO_PATH + '/' + path
+            path: '/' + RELATIVE_PATH + '/' + path
         })
     return result
 
 
 def write_config(config):
-    with open('config.json', 'w') as f:
+    with open(PATH + 'config.json', 'w') as f:
         f.write(json.dumps(config, indent=2, separators=(',', ': ')))
 
 
@@ -48,6 +50,7 @@ def run():
     for path in dirs:
         config[path] = get_images(path)
     write_config(config)
+    return 0
 
 
 ############################################################
