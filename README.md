@@ -45,6 +45,24 @@ Once you've created your `config.json`, the website can now use that file to fig
 - No Bootstrap is used. AT ALL! 🔥🔥🔥
 - It uses ES6. NEW TECH! 🔥🔥🔥
 - It has no local dependencies. SAY WHAT! 🔥🔥🔥
+🔥🔥🔥
 
-## Customizing the Layout
-Gallery supports 3 different kinds of layouts: rows, squares and columns. You can choose which type of layout you want to use by setting the `layout` variable in `script.js` to be either SQUARES, ROWS or COLUMNS.
+## Customizing your Gallery
+Gallery supports 3 different kinds of layouts: rows, squares and columns. You can choose which type of layout you want to use by setting the `layout` variable in `script.js` to be either `SQUARES`, `ROWS` or `COLUMNS`.
+
+Each different layout has both its own and shared set of configuration options.
+
+### Shared
+`spacing` (Integer): The vertical and horizontal distance that separates each photo from all adjacent photos.
+`shuffle` (Boolean): Toggle to shuffle or not to shuffle the photos.
+
+### Column Configuration
+`columns` (Integer): The number of columns for the layout.
+
+### Square Configuration
+`columns` (Integer): The number of columns for the layout.
+`maxHeight` (Integer): The max height in px for each photo.
+Columns takes priority if both are set.
+
+### Row Configuration
+`maxHeight` (Integer): The max height in px for each photo.
