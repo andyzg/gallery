@@ -1,5 +1,28 @@
+var COLUMNS = 'columns';
+var ROWS = 'rows';
+var SQUARES = 'squares';
+
+/** To customize the layout, CHANGE THE layoutStyle VARIABLE TO BE
+* COLUMNS: Column style layout
+* SQUARES: Square style layout, similar to Instagram
+* ROWS: Row style layout
+***/
+var layoutStyle = COLUMNS;
+var id = 'gallery';
+
 function reqListener() {
-  var renderer = new VerticalRenderer('gallery');
+  var renderer
+  switch (layoutStyle) {
+    case COLUMNS:
+      renderer = new VerticalRenderer(id);
+      break;
+    case ROWS:
+      renderer = new HorizontalRenderer(id);
+      break;
+    case SQUARES:
+      renderer = new SquareRenderer(id);
+      break;
+  }
   var config = new Config(JSON.parse(this.responseText), {
     maxHeight: 400,
     spacing: 10,
@@ -8,12 +31,6 @@ function reqListener() {
   });
 
   renderer.render(config);
-
-  /**
-   * Ideally, the API looks like a factory pattern
-   * var renderer = Gallery.createRenderer(data, config);
-   * renderer.render('#id');
-   */
 }
 
 
