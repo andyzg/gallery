@@ -31,7 +31,10 @@ $ git push origin gh-pages  # This pushes your gallery to be hosted!
 ```
 - Check out your site at {username}.github.io/gallery 🎉✨!
 
-*Notes: To ⏭speed⏭ up the loading time of your gallery, please make sure to compress your images*
+*Notes:* To ⏭speed⏭ up the loading time of your gallery, please make sure to compress your images.  
+If you want Google Analytics, replace `_includes/ga.html` with your own snippet.
+
+
 
 ## How It Works
 There are two important pieces to gallery:
