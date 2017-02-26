@@ -1,6 +1,8 @@
 # Gallery
 A static site generator for your photo albums. A 🤑free🤑 Squarespace alternative for your photos. Live demo at http://andyzhang.net/gallery
 
+Gallery is a side project of mine to allow me to create a more curated version of my photography portfolio. It's intended to have a simple setup process that is accessible by anyone. If you have any feedback for Gallery, I'd love to hear it :)
+
 ## Requirements
 5 minutes of your time and photos📸 you love 🎉! (+ git and python)
 
@@ -19,7 +21,7 @@ A static site generator for your photo albums. A 🤑free🤑 Squarespace altern
     IMG_1235.jpg
 ```
 
-4. Open the folder in finder and double click `setup.command`. This will go through all of your albums and create a `config.json` file for you. This file allows the generator to know which photos will be hosted on your website.✨
+4. Open the folder in finder and **double click** `setup.command`. This will go through all of your albums and create a `config.json` file for you. This file allows the generator to know which photos will be hosted on your website.✨
 5. Replace the name in `index.html` to be your name. Feel free to make any other changes here!
 6. Commit all of your changes and then push all of your changes to Github by running
 ```
@@ -39,14 +41,6 @@ There are two important pieces to gallery:
 
 ### Client-side Generation
 Once you've created your `config.json`, the website can now use that file to figure out which photos to show. It uses JavaScript(ES6🔥!) to layout your photos, grouping all of the photos per album.
-
-## Fun Facts
-- No jQuery is used. AT ALL! 🔥🔥🔥
-- No Bootstrap is used. AT ALL! 🔥🔥🔥
-- It uses ES6. NEW TECH! 🔥🔥🔥
-- It has no local dependencies. SAY WHAT! 🔥🔥🔥
-
-🔥🔥🔥
 
 ## Customizing your Gallery
 Gallery supports 3 different kinds of layouts: rows, squares and columns. You can choose which type of layout you want to use by setting the `layout` variable in `script.js` to be either `SQUARES`, `ROWS` or `COLUMNS`.
@@ -68,6 +62,15 @@ Columns takes priority if both are set.
 ### Row Configuration
 - `maxHeight` (Integer): The max height in px for each photo. *Default is `400`*.
 
+
+## Fun Facts
+- No jQuery is used. AT ALL! 🔥🔥🔥
+- No Bootstrap is used. AT ALL! 🔥🔥🔥
+- It uses ES6. NEW TECH! 🔥🔥🔥
+- It has no local dependencies. SAY WHAT! 🔥🔥🔥
+
+🔥🔥🔥
+
 ---
 
 ## Next Steps
@@ -76,6 +79,7 @@ Columns takes priority if both are set.
 - Support better album navigation
 - Create a better UX for setting up a gallery
 - Support zoom on a photo
+- Enable additional info on page(contact, links)
 
 ---
 
