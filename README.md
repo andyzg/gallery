@@ -72,7 +72,6 @@ Columns takes priority if both are set.
 
 🔥🔥🔥
 
----
 
 ## Next Steps
 - Make layout responsive
