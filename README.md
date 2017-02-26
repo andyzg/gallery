@@ -4,7 +4,7 @@ A photography portfolio generator with web hosting for your photo albums. A 🤑
 *Gallery is a side project of mine to allow me to create a more curated version of my photography portfolio. It's intended to have a simple setup process that is accessible by anyone. If you have any feedback for Gallery, [drop me a line](mailto:andzhng@gmail.com?Subject=Hey!) :)*
 
 ## Dependencies
-NONE!
+🔥 NONE 🔥
 
 ## Making your own gallery in less than 5 minutes
 - Fork this repository🍴
