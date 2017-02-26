@@ -1,6 +1,7 @@
 var COLUMNS = 'columns';
 var ROWS = 'rows';
 var SQUARES = 'squares';
+var id = 'gallery';
 
 /** To customize the layout, CHANGE THE layoutStyle VARIABLE TO BE
 * COLUMNS: Column style layout
@@ -8,7 +9,12 @@ var SQUARES = 'squares';
 * ROWS: Row style layout
 ***/
 var layoutStyle = COLUMNS;
-var id = 'gallery';
+var configuration = {
+  spacing: 10,
+  shuffle: true,
+  columns: 3,
+  maxHeight: 400
+}
 
 function reqListener() {
   var renderer
@@ -23,13 +29,7 @@ function reqListener() {
       renderer = new SquareRenderer(id);
       break;
   }
-  var config = new Config(JSON.parse(this.responseText), {
-    maxHeight: 400,
-    spacing: 10,
-    shuffle: true,
-    columns: 3
-  });
-
+  var config = new Config(JSON.parse(this.responseText), configuration);
   renderer.render(config);
 }
 
