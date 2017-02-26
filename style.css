@@ -23,6 +23,12 @@ section {
 
 section img {
   vertical-align: middle;
+  opacity: 0;
+  transition: 0.5s opacity;
+}
+
+section img.img-loaded {
+  opacity: 1;
 }
 
 h3 {

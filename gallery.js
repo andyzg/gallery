@@ -97,6 +97,7 @@ class VerticalRenderer extends Renderer {
     image.style.width = width + 'px';
     image.style.height = photo.height(width) + 'px';
     image.style.marginBottom = config.spacing + 'px';
+    image.onload = onImageLoad;
 
     return image;
   }
@@ -257,6 +258,7 @@ class HorizontalRenderer extends Renderer {
       image.src = photo.src();
       image.style.width = photo.width(finalHeight) + 'px';
       image.style.height = finalHeight + 'px';
+      image.onload = onImageLoad;
       if (i !== 0) {
         image.style.marginLeft = config.spacing + 'px';
       }
@@ -303,4 +305,9 @@ function shuffle(a) {
     let j = Math.floor(Math.random() * i);
     [a[i - 1], a[j]] = [a[j], a[i - 1]];
   }
+}
+
+function onImageLoad() {
+  debugger;
+  this.classList.add('img-loaded');
 }
