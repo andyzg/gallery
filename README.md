@@ -57,6 +57,7 @@ Each different layout has both its own and shared set of configuration options.
 ### Square Configuration
 - `columns` (Integer): The number of columns for the layout. *Default is `3`*.
 - `maxHeight` (Integer): The max height in px for each photo. *Default is `400`*.
+
 Columns takes priority if both are set.
 
 ### Row Configuration
