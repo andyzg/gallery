@@ -54,19 +54,19 @@ Gallery supports 3 different kinds of layouts: rows, squares and columns. You ca
 Each different layout has both its own and shared set of configuration options.
 
 ### Shared
-- `spacing` (Integer): The vertical and horizontal distance that separates each photo from all adjacent photos.
-- `shuffle` (Boolean): Toggle to shuffle or not to shuffle the photos.
+- `spacing` (Integer): The vertical and horizontal distance that separates each photo from all adjacent photos. *Defaulted to 10*.
+- `shuffle` (Boolean): Toggle to shuffle or not to shuffle the photos. *Default is `false`*.
 
 ### Column Configuration
-- `columns` (Integer): The number of columns for the layout.
+- `columns` (Integer): The number of columns for the layout. *Default is `3`*.
 
 ### Square Configuration
-- `columns` (Integer): The number of columns for the layout.
-- `maxHeight` (Integer): The max height in px for each photo.
+- `columns` (Integer): The number of columns for the layout. *Default is `3`*.
+- `maxHeight` (Integer): The max height in px for each photo. *Default is `400`*.
 Columns takes priority if both are set.
 
 ### Row Configuration
-- `maxHeight` (Integer): The max height in px for each photo.
+- `maxHeight` (Integer): The max height in px for each photo. *Default is `400`*.
 
 ---
 
