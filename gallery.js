@@ -69,7 +69,7 @@ class VerticalRenderer extends Renderer {
       var nextPhoto = photos[i];
       var index = this.getSmallestStack(heights);
       stacks[index].push(nextPhoto);
-      heights[index] += nextPhoto.height(width);
+      heights[index] = heights[index] + nextPhoto.height(width);
     }
 
     var columnElements = document.createElement('div');
@@ -308,6 +308,5 @@ function shuffle(a) {
 }
 
 function onImageLoad() {
-  debugger;
   this.classList.add('img-loaded');
 }

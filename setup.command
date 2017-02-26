@@ -32,9 +32,9 @@ def get_images(path):
         with open(PHOTO_PATH + '/' + path + '/' + img) as f:
             _, width, height = getImageInfo(f.read())
         result.append({
-            width: width,
-            height: height,
-            path: '/' + RELATIVE_PATH + '/' + path + '/' + img
+            'width': width,
+            'height': height,
+            'path': '/' + RELATIVE_PATH + '/' + path + '/' + img
         })
     return result
 
