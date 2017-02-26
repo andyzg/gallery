@@ -1,10 +1,10 @@
 class Config {
   constructor(config, opts) {
     this.data = config;
-    this.maxHeight = opts.maxHeight;
-    this.spacing = opts.spacing;
-    this.shuffle = opts.shuffle;
-    this.columns = opts.columns;
+    this.maxHeight = opts.maxHeight || 400;
+    this.spacing = opts.spacing || 10;
+    this.shuffle = opts.shuffle || false;
+    this.columns = opts.columns || 3;
   };
 
   photos(album) {
