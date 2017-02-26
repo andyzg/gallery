@@ -71,4 +71,5 @@ Columns takes priority if both are set.
 ---
 
 If you enjoyed using Gallery, I'd love to see what you created with Gallery 🙌
-Share your gallery with me on this [link](https://github.com/andyzg/gallery/issues/1)!
+
+Share your gallery with me on this [thread](https://github.com/andyzg/gallery/issues/1)!
