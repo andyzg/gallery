@@ -1,5 +1,5 @@
 # Gallery
-A static site generator for your photo albums. A 🤑free🤑 Squarespace alternative for your photos. Live demo at http://andyzhang.net
+A static site generator for your photo albums. A 🤑free🤑 Squarespace alternative for your photos. Live demo at http://andyzhang.net/gallery
 
 ## Requirements
 5 minutes of your time and photos📸 you love 🎉! (+ git and python)
@@ -70,6 +70,15 @@ Columns takes priority if both are set.
 
 ---
 
+## Next Steps
+- Make layout responsive
+- Support lazy loading
+- Support better album navigation
+- Create a better UX for setting up a gallery
+- Support zoom on a photo
+
+---
+
 If you enjoyed using Gallery, I'd love to see what you created with Gallery 🙌
 
-Share your gallery with me on this [thread](https://github.com/andyzg/gallery/issues/1)!
+Share your gallery with me on this [thread](https://github.com/andyzg/gallery/issues/1)❤️!
