@@ -1,3 +1,7 @@
+/**
+ * Config file. Contains all of the options for laying out the photos, as well
+ * as the albums and photo metadata.
+ */
 class Config {
   constructor(config, opts) {
     this.data = config;
@@ -12,6 +16,9 @@ class Config {
   }
 }
 
+/**
+ * Abstract class for rendering a layout.
+ */
 class Renderer {
   constructor(domId) {
     this._rootElem = document.getElementById(domId);
@@ -43,6 +50,9 @@ class Renderer {
   }
 }
 
+/**
+ * Renders photos in columns
+ */
 class VerticalRenderer extends Renderer {
   render(config) {
     for (var section in config.data) {
@@ -53,6 +63,9 @@ class VerticalRenderer extends Renderer {
     }
   }
 
+  /**
+   * Creates one album
+   */
   createSection(config, section, photos) {
     var sectionElem = this.createHeader(section);
     var length = config.columns
@@ -90,6 +103,9 @@ class VerticalRenderer extends Renderer {
     return sectionElem;
   }
 
+  /**
+   * Creates one photo
+   */
   createPhotoElement(photo, width, config) {
     var image = new Image();
 
@@ -102,6 +118,9 @@ class VerticalRenderer extends Renderer {
     return image;
   }
 
+  /**
+   * Find the shortest column to add a photo to
+   */
   getSmallestStack(stack) {
     var smallestIndex = 0;
     var minHeight = Number.MAX_VALUE;
@@ -119,6 +138,9 @@ class VerticalRenderer extends Renderer {
   }
 }
 
+/**
+ * Renderer for square photo layout
+ */
 class SquareRenderer extends Renderer {
   render(config) {
     for (var section in config.data) {
@@ -129,6 +151,9 @@ class SquareRenderer extends Renderer {
     }
   }
 
+  /**
+   * Creates an album section
+   */
   createSection(config, section, photos) {
     var sectionElem = this.createHeader(section);
 
@@ -154,6 +179,9 @@ class SquareRenderer extends Renderer {
     return sectionElem;
   }
 
+  /**
+   * Creates a row of square photos
+   */
   createRow(config, section, photos, height) {
     var rowElem = document.createElement('div');
     rowElem.className = 'sectionrow';
@@ -181,6 +209,9 @@ class SquareRenderer extends Renderer {
     return rowElem;
   }
 
+  /**
+   * Calculates the height of the square photos
+   */
   calculateHeight(config, length) {
     if (config.columns) {
       return (this._currentWidth - (config.columns-1) * config.spacing) / config.columns;
@@ -189,6 +220,9 @@ class SquareRenderer extends Renderer {
   }
 }
 
+/**
+ * Renders the photos in rows
+ */
 class HorizontalRenderer extends Renderer {
   render(config) {
     for (var section in config.data) {
@@ -199,6 +233,9 @@ class HorizontalRenderer extends Renderer {
     }
   }
 
+  /**
+   * Creates an album section
+   */
   createSection(config, section, photos) {
     if (config.shuffle) {
       shuffle(photos);
@@ -228,6 +265,9 @@ class HorizontalRenderer extends Renderer {
     return sectionElem;
   }
 
+  /**
+   * Creates a row of photos with fixed height
+   */
   createRow(config, section, photos, isIncomplete=false) {
     var rowElem = document.createElement('div');
     rowElem.className = 'sectionrow';
@@ -250,7 +290,6 @@ class HorizontalRenderer extends Renderer {
       }
     }
 
-
     for (var i = 0; i < photos.length; i++) {
       var photo = photos[i];
       var image = new Image();
@@ -268,6 +307,9 @@ class HorizontalRenderer extends Renderer {
 }
 
 
+/**
+ * Wrapper for a photo
+ */
 class Photo {
   constructor(p) {
     this.path = p.path;
@@ -306,10 +348,16 @@ function shuffle(a) {
   }
 }
 
+/**
+ * Event listener. Enables photos to transition to full opacity.
+ */
 function onImageLoad() {
   this.classList.add('img-loaded');
 }
 
+/**
+ * Utility class to avoid type coercion
+ */
 function px(size) {
   return size + 'px';
 }
