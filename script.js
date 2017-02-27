@@ -8,7 +8,7 @@ var id = 'gallery';
 * SQUARES: Square style layout, similar to Instagram
 * ROWS: Row style layout
 ***/
-var layoutStyle = COLUMNS;
+var layoutStyle = ROWS;
 var configuration = {
   spacing: 10,
   shuffle: true,

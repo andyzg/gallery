@@ -22,11 +22,11 @@ class Renderer {
   render(config) {}
 
   getPhotos(config, photos) {
-    var photoObjs = photos.map((p) => { return new Photo(p); });
+    var photos = photos.map((p) => { return new Photo(p); });
     if (config.shuffle) {
-      shuffle(photoObjs);
+      shuffle(photos);
     }
-    return photoObjs
+    return photos
   }
 
   rootElem() {
@@ -200,7 +200,6 @@ class HorizontalRenderer extends Renderer {
   }
 
   createSection(config, section, photos) {
-    var photos = photoObjs.map((p) => { return new Photo(p); });
     if (config.shuffle) {
       shuffle(photos);
     }
