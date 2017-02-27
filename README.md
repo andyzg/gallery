@@ -1,5 +1,5 @@
 # Gallery
-A photography portfolio generator with web hosting for your photo albums. A 🤑free🤑 Squarespace alternative for your photos. Live demo at http://andyzhang.net/gallery
+A photography portfolio generator with web hosting for your photo albums. Requires no 3rd party libraries or installations. A 🤑free🤑 Squarespace alternative for your photos. Live demo at http://andyzhang.net/gallery
 
 ![demo](./demo.gif)
 
