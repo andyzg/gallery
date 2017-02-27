@@ -13,7 +13,7 @@ A photography portfolio generator with web hosting for your photo albums. Requir
 - Fork this repository🍴
 - Clone the repository through terminal by running 
 `git clone git@github.com:{YOUR_USERNAME}/gallery.git`
-- Import all of your albums into the `/photos` directory. For each of your albums, create a folder with the same name as your album name, and then put all of your photos in the folder. Example:
+- Replace contents of `/photos` with all of your albums. For each of your albums, create a folder with the same name as your album name, and then put all of your photos in the folder. Example:
 ```
 /photos
   /travel
