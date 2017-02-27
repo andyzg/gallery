@@ -74,14 +74,14 @@ class VerticalRenderer extends Renderer {
 
     var columnElements = document.createElement('div');
     columnElements.style.columnCount = config.columns;
-    columnElements.style.columnGap = config.spacing + 'px';
+    columnElements.style.columnGap = px(config.spacing);
 
     for (var i = 0; i < stacks.length; i++) {
       var column = document.createElement('div');
       for (var j = 0; j < stacks[i].length; j++) {
         column.appendChild(this.createPhotoElement(stacks[i][j], width, config));
       }
-      column.style.width = width + 'px';
+      column.style.width = px(width);
       columnElements.appendChild(column);
     }
 
@@ -94,9 +94,9 @@ class VerticalRenderer extends Renderer {
     var image = new Image();
 
     image.src = photo.src();
-    image.style.width = width + 'px';
-    image.style.height = photo.height(width) + 'px';
-    image.style.marginBottom = config.spacing + 'px';
+    image.style.width = px(width);
+    image.style.height = px(photo.height(width));
+    image.style.marginBottom = px(config.spacing);
     image.onload = onImageLoad;
 
     return image;
@@ -157,7 +157,7 @@ class SquareRenderer extends Renderer {
   createRow(config, section, photos, height) {
     var rowElem = document.createElement('div');
     rowElem.className = 'sectionrow';
-    rowElem.style.marginBottom = config.spacing + 'px';
+    rowElem.style.marginBottom = px(config.spacing);
 
     for (var i = 0; i < photos.length; i++) {
       var photo = photos[i];
@@ -168,13 +168,13 @@ class SquareRenderer extends Renderer {
       image.style.backgroundPosition = 'center';
       image.style.backgroundSize = 'cover'
 
-      image.style.width = height + 'px';
-      image.style.height = height + 'px';
+      image.style.width = px(height);
+      image.style.height = px(height);
       image.style.display = 'inline-block';
 
       // Only apply margins to second to last.
       if (i !== 0) {
-        image.style.marginLeft = config.spacing + 'px';
+        image.style.marginLeft = px(config.spacing);
       }
       rowElem.appendChild(image);
     }
@@ -231,7 +231,7 @@ class HorizontalRenderer extends Renderer {
   createRow(config, section, photos, isIncomplete=false) {
     var rowElem = document.createElement('div');
     rowElem.className = 'sectionrow';
-    rowElem.style.marginBottom = config.spacing + 'px';
+    rowElem.style.marginBottom = px(config.spacing);
 
     // Calculate height of element
     var targetWidth = this._currentWidth - (photos.length - 1) * config.spacing;
@@ -255,11 +255,11 @@ class HorizontalRenderer extends Renderer {
       var photo = photos[i];
       var image = new Image();
       image.src = photo.src();
-      image.style.width = photo.width(finalHeight) + 'px';
-      image.style.height = finalHeight + 'px';
+      image.style.width = px(photo.width(finalHeight));
+      image.style.height = px(finalHeight);
       image.onload = onImageLoad;
       if (i !== 0) {
-        image.style.marginLeft = config.spacing + 'px';
+        image.style.marginLeft = px(config.spacing);
       }
       rowElem.appendChild(image);
     }
@@ -308,4 +308,8 @@ function shuffle(a) {
 
 function onImageLoad() {
   this.classList.add('img-loaded');
+}
+
+function px(size) {
+  return size + 'px';
 }
