@@ -25,7 +25,7 @@ A photography portfolio generator with web hosting for your photo albums. Requir
 ```
 
 - Open the folder in finder and **double click** `setup.command`. This will go through all of your albums and create a `config.json` file for you. This file allows the generator to know which photos will be hosted on your website.✨
-- Replace the `Andy Zhang` in `_config.yml` to be your name. Feel free to make any other changes here!
+- Personalize the contents at the bottom of `_config.yml`.
 - Commit all of your changes and then push all of your changes to Github by running
 ```
 $ git checkout -B gh-pages  # This creates a branch that will be hosted at {username}.github.io/gallery
