@@ -1,4 +1,125 @@
 {
+  "Travel": [
+    {
+      "width": 1500,
+      "path": "./photos/Travel/20160406-20160505DSCF2086.jpg",
+      "height": 2000
+    },
+    {
+      "width": 1500,
+      "path": "./photos/Travel/20160407-20160506DSCF2292.jpg",
+      "height": 2000
+    },
+    {
+      "width": 2000,
+      "path": "./photos/Travel/IMG_7438.jpg",
+      "height": 1333
+    },
+    {
+      "width": 2000,
+      "path": "./photos/Travel/IMG_7575.jpg",
+      "height": 1500
+    },
+    {
+      "width": 1333,
+      "path": "./photos/Travel/IMG_7593.jpg",
+      "height": 2000
+    },
+    {
+      "width": 1500,
+      "path": "./photos/Travel/IMG_9227.jpg",
+      "height": 2000
+    },
+    {
+      "width": 2000,
+      "path": "./photos/Travel/IMG_9675.jpg",
+      "height": 1333
+    },
+    {
+      "width": 1500,
+      "path": "./photos/Travel/IMG_9863.jpg",
+      "height": 2000
+    }
+  ],
+  "Street": [
+    {
+      "width": 2000,
+      "path": "./photos/Street/IMG_5269.jpg",
+      "height": 1333
+    },
+    {
+      "width": 2000,
+      "path": "./photos/Street/IMG_5628.jpg",
+      "height": 1500
+    },
+    {
+      "width": 1820,
+      "path": "./photos/Street/IMG_5959.jpg",
+      "height": 2000
+    },
+    {
+      "width": 2000,
+      "path": "./photos/Street/IMG_9905.jpg",
+      "height": 1333
+    },
+    {
+      "width": 1333,
+      "path": "./photos/Street/IMG_9966.jpg",
+      "height": 2000
+    }
+  ],
+  "California": [
+    {
+      "width": 1500,
+      "path": "./photos/California/DSCF1725.jpg",
+      "height": 2000
+    },
+    {
+      "width": 1500,
+      "path": "./photos/California/DSCF1894.jpg",
+      "height": 2000
+    },
+    {
+      "width": 1500,
+      "path": "./photos/California/DSCF2242.jpg",
+      "height": 2000
+    },
+    {
+      "width": 1500,
+      "path": "./photos/California/DSCF2255.jpg",
+      "height": 2000
+    },
+    {
+      "width": 1500,
+      "path": "./photos/California/DSCF2338.jpg",
+      "height": 2000
+    },
+    {
+      "width": 1500,
+      "path": "./photos/California/DSCF2384.jpg",
+      "height": 2000
+    },
+    {
+      "width": 1333,
+      "path": "./photos/California/DSCF2926.jpg",
+      "height": 2000
+    },
+    {
+      "width": 1500,
+      "path": "./photos/California/DSCF2986.jpg",
+      "height": 2000
+    },
+    {
+      "width": 2000,
+      "path": "./photos/California/DSCF3125.jpg",
+      "height": 1333
+    },
+    {
+      "width": 1500,
+      "path": "./photos/California/DSCF3168.jpg",
+      "height": 2000
+    }
+  ],
   "People": [
     {
       "width": 2000,
@@ -17,17 +138,12 @@
     },
     {
       "width": 1500,
-      "path": "./photos/People/DSCF0702.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
       "path": "./photos/People/DSCF0802.jpg",
       "height": 2000
     },
     {
       "width": 1500,
-      "path": "./photos/People/DSCF2176.jpg",
+      "path": "./photos/People/DSCF1676.jpg",
       "height": 2000
     },
     {
@@ -36,8 +152,8 @@
       "height": 2000
     },
     {
-      "width": 1500,
-      "path": "./photos/People/DSCF2688.jpg",
+      "width": 1333,
+      "path": "./photos/People/DSCF3044.jpg",
       "height": 2000
     },
     {
@@ -64,306 +180,6 @@
       "width": 2000,
       "path": "./photos/People/IMG_7888.jpg",
       "height": 1250
-    }
-  ],
-  "Death Valley": [
-    {
-      "width": 1500,
-      "path": "./photos/Death Valley/DSCF1469.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Death Valley/DSCF1533.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Death Valley/DSCF1578.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Death Valley/DSCF1676.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Death Valley/DSCF1725.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Death Valley/DSCF1797.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Death Valley/DSCF1850.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Death Valley/DSCF1866.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Death Valley/DSCF1892.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Death Valley/DSCF1894.jpg",
-      "height": 2000
-    }
-  ],
-  "Point Reyes": [
-    {
-      "width": 1500,
-      "path": "./photos/Point Reyes/DSCF2135.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Point Reyes/DSCF2147.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Point Reyes/DSCF2189.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Point Reyes/DSCF2203.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Point Reyes/DSCF2223.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Point Reyes/DSCF2242.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Point Reyes/DSCF2255.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Point Reyes/DSCF2301.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Point Reyes/DSCF2338.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Point Reyes/DSCF2345.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Point Reyes/DSCF2384.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1333,
-      "path": "./photos/Point Reyes/DSCF2388.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Point Reyes/DSCF2393.jpg",
-      "height": 2000
-    }
-  ],
-  "Cambodia": [
-    {
-      "width": 2000,
-      "path": "./photos/Cambodia/IMG_7076.jpg",
-      "height": 1500
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Cambodia/IMG_7136.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Cambodia/IMG_7137.jpg",
-      "height": 2000
-    },
-    {
-      "width": 2000,
-      "path": "./photos/Cambodia/IMG_7184.jpg",
-      "height": 1333
-    },
-    {
-      "width": 2000,
-      "path": "./photos/Cambodia/IMG_7199.jpg",
-      "height": 1500
-    },
-    {
-      "width": 2000,
-      "path": "./photos/Cambodia/IMG_7215.jpg",
-      "height": 1500
-    },
-    {
-      "width": 2000,
-      "path": "./photos/Cambodia/IMG_7575.jpg",
-      "height": 1500
-    },
-    {
-      "width": 2000,
-      "path": "./photos/Cambodia/IMG_7581.jpg",
-      "height": 1500
-    },
-    {
-      "width": 1333,
-      "path": "./photos/Cambodia/IMG_7593.jpg",
-      "height": 2000
-    },
-    {
-      "width": 2000,
-      "path": "./photos/Cambodia/IMG_7609.jpg",
-      "height": 1500
-    }
-  ],
-  "Los Angeles": [
-    {
-      "width": 1500,
-      "path": "./photos/Los Angeles/DSCF2924.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1333,
-      "path": "./photos/Los Angeles/DSCF2926.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Los Angeles/DSCF2929.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Los Angeles/DSCF2933.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Los Angeles/DSCF2986.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Los Angeles/DSCF3003.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Los Angeles/DSCF3008.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Los Angeles/DSCF3015.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1333,
-      "path": "./photos/Los Angeles/DSCF3044.jpg",
-      "height": 2000
-    },
-    {
-      "width": 2000,
-      "path": "./photos/Los Angeles/DSCF3125.jpg",
-      "height": 1333
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Los Angeles/DSCF3155.jpg",
-      "height": 2000
-    },
-    {
-      "width": 2000,
-      "path": "./photos/Los Angeles/DSCF3161.jpg",
-      "height": 1500
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Los Angeles/DSCF3168.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Los Angeles/DSCF3183.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Los Angeles/DSCF3276.jpg",
-      "height": 2000
-    }
-  ],
-  "Hong Kong": [
-    {
-      "width": 2000,
-      "path": "./photos/Hong Kong/IMG_0067.jpg",
-      "height": 1333
-    },
-    {
-      "width": 2000,
-      "path": "./photos/Hong Kong/IMG_0191.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Hong Kong/IMG_6427.jpg",
-      "height": 2000
-    },
-    {
-      "width": 2000,
-      "path": "./photos/Hong Kong/IMG_9640.jpg",
-      "height": 1500
-    },
-    {
-      "width": 2000,
-      "path": "./photos/Hong Kong/IMG_9675.jpg",
-      "height": 1333
-    },
-    {
-      "width": 1500,
-      "path": "./photos/Hong Kong/IMG_9863.jpg",
-      "height": 2000
-    },
-    {
-      "width": 2000,
-      "path": "./photos/Hong Kong/IMG_9892.jpg",
-      "height": 1125
-    },
-    {
-      "width": 2000,
-      "path": "./photos/Hong Kong/IMG_9905.jpg",
-      "height": 1333
-    },
-    {
-      "width": 1333,
-      "path": "./photos/Hong Kong/IMG_9966.jpg",
-      "height": 2000
-    },
-    {
-      "width": 2000,
-      "path": "./photos/Hong Kong/IMG_9972.jpg",
-      "height": 1500
     }
   ]
 }
