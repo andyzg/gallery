@@ -11,7 +11,7 @@ var id = 'gallery';
 var layoutStyle = ROWS;
 var configuration = {
   spacing: 10,
-  shuffle: true,
+  shuffle: false,
   columns: 3,
   maxHeight: 400
 }

@@ -1,0 +1,34 @@
+# Name of your blog (this will show up at the top of your page and in the RSS feed)
+name: Gallery
+
+# Short description (goes below the title; it will also be used in the RSS feed)
+description: Photography Portfolio
+
+# Your name, as you want it to appear underneath each post and in the footer
+author: Andy Zhang
+
+# Your email if you want it to be linked on the contact page
+author_email: andzhng@gmail.com
+
+# The directory for category index pages. Change it to something else if
+# for example you want links like /categories/category1 instead of /category1
+category_dir: /
+
+# Uncomment if you are planning to run the blog in a subdirectory
+# Note - if you enable this, and attempt to view your site locally you have to use the baseurl in your local path.
+# Example, you must use http://localhost:4000/path/to/blog
+#baseurl: /path/to/blog
+baseurl: /gallery
+
+# The URL of your actual domain. This will be used to make absolute links in the RSS feed.
+# url: http://andyzhang.net/gallery
+
+#############################
+#        TO FILL            #
+#############################
+
+# The title that appears on the tab
+title: Andy Zhang's Gallery
+
+# The title on the web page
+full_name: Andy Zhang
