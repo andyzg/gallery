@@ -1,4 +1,26 @@
 {
+  "Sunset": [
+    {
+      "width": 2912,
+      "path": "./photos/Sunset/DSCF3620.jpg",
+      "height": 3882
+    },
+    {
+      "width": 3170,
+      "path": "./photos/Sunset/DSCF5636.jpg",
+      "height": 3962
+    },
+    {
+      "width": 3154,
+      "path": "./photos/Sunset/DSCF5784.jpg",
+      "height": 3943
+    },
+    {
+      "width": 3264,
+      "path": "./photos/Sunset/DSCF6512.jpg",
+      "height": 4080
+    }
+  ],
   "Travel": [
     {
       "width": 1500,
@@ -39,54 +61,17 @@
       "width": 1500,
       "path": "./photos/Travel/IMG_9863.jpg",
       "height": 2000
-    }
-  ],
-  "Street": [
-    {
-      "width": 2000,
-      "path": "./photos/Street/IMG_5269.jpg",
-      "height": 1333
     },
     {
-      "width": 2000,
-      "path": "./photos/Street/IMG_5628.jpg",
-      "height": 1500
-    },
-    {
-      "width": 1820,
-      "path": "./photos/Street/IMG_5959.jpg",
-      "height": 2000
-    },
-    {
-      "width": 2000,
-      "path": "./photos/Street/IMG_9905.jpg",
-      "height": 1333
-    },
-    {
-      "width": 1333,
-      "path": "./photos/Street/IMG_9966.jpg",
-      "height": 2000
+      "width": 2205,
+      "path": "./photos/Travel/IMG_9966.jpg",
+      "height": 2940
     }
   ],
   "California": [
     {
       "width": 1500,
-      "path": "./photos/California/DSCF1725.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
       "path": "./photos/California/DSCF1894.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/California/DSCF2242.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/California/DSCF2255.jpg",
       "height": 2000
     },
     {
@@ -95,42 +80,39 @@
       "height": 2000
     },
     {
-      "width": 1500,
-      "path": "./photos/California/DSCF2384.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1333,
-      "path": "./photos/California/DSCF2926.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/California/DSCF2986.jpg",
-      "height": 2000
-    },
-    {
-      "width": 2000,
-      "path": "./photos/California/DSCF3125.jpg",
-      "height": 1333
-    },
-    {
-      "width": 1500,
+      "width": 2218,
       "path": "./photos/California/DSCF3168.jpg",
-      "height": 2000
+      "height": 2957
+    },
+    {
+      "width": 3264,
+      "path": "./photos/California/DSCF3621.jpg",
+      "height": 4352
+    },
+    {
+      "width": 2611,
+      "path": "./photos/California/DSCF4538.jpg",
+      "height": 3264
+    }
+  ],
+  "Architecture": [
+    {
+      "width": 3265,
+      "path": "./photos/Architecture/DSCF7277.jpg",
+      "height": 4898
+    },
+    {
+      "width": 3265,
+      "path": "./photos/Architecture/DSCF7382.jpg",
+      "height": 4898
+    },
+    {
+      "width": 3538,
+      "path": "./photos/Architecture/DSCF7399.jpg",
+      "height": 4422
     }
   ],
   "People": [
-    {
-      "width": 2000,
-      "path": "./photos/People/DSCF0238.jpg",
-      "height": 1333
-    },
-    {
-      "width": 2000,
-      "path": "./photos/People/DSCF0553.jpg",
-      "height": 1333
-    },
     {
       "width": 2000,
       "path": "./photos/People/DSCF0589.jpg",
@@ -142,28 +124,18 @@
       "height": 2000
     },
     {
-      "width": 1500,
-      "path": "./photos/People/DSCF1676.jpg",
-      "height": 2000
+      "width": 4352,
+      "path": "./photos/People/DSCF0989.jpg",
+      "height": 3264
     },
     {
-      "width": 1500,
-      "path": "./photos/People/DSCF2438.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1333,
-      "path": "./photos/People/DSCF3044.jpg",
-      "height": 2000
+      "width": 3264,
+      "path": "./photos/People/DSCF1981.jpg",
+      "height": 4352
     },
     {
       "width": 1500,
       "path": "./photos/People/DSCF3276.jpg",
-      "height": 2000
-    },
-    {
-      "width": 1500,
-      "path": "./photos/People/DSCF3297.jpg",
       "height": 2000
     },
     {
@@ -175,6 +147,16 @@
       "width": 1500,
       "path": "./photos/People/DSCF3356.jpg",
       "height": 2000
+    },
+    {
+      "width": 2808,
+      "path": "./photos/People/DSCF5996.jpg",
+      "height": 4212
+    },
+    {
+      "width": 3264,
+      "path": "./photos/People/DSCF6786.jpg",
+      "height": 4080
     },
     {
       "width": 2000,
