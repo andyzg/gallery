@@ -34,7 +34,7 @@ $ git push origin gh-pages  # This pushes your gallery to be hosted!
 ```
 - Check out your site at {username}.github.io/gallery 🎉✨!
 
-*Notes:* To ⏭speed⏭ up the loading time of your gallery, please make sure to compress your images.  
+*Important notes:* To ⏭speed⏭ up the loading time of your gallery, please make sure to compress your images.  
 If you want Google Analytics, replace `_includes/ga.html` with your own snippet.
 
 
@@ -86,6 +86,7 @@ Columns takes priority if both are set.
 - Create a better UX for setting up a gallery
 - Support zoom on a photo
 - Enable additional info on page(contact, links)
+- SEO
 
 ---
 
