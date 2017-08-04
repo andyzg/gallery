@@ -41,3 +41,26 @@ h3 {
   font-weight: 400;
   letter-spacing: 2px;
 }
+
+.footer {
+  padding-bottom: 32px;
+
+  color: #999;
+  font-weight: 300;
+  text-align: center;
+}
+
+.author {
+  transition: color 0.2s;
+}
+
+.author:visited,
+.author:active,
+.author:link {
+  color: #999;
+  text-decoration: none;
+}
+
+.author:hover {
+  color: #0099CC;
+}
