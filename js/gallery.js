@@ -93,7 +93,8 @@ class VerticalRenderer extends Renderer {
       var column = document.createElement('div');
       for (var j = 0; j < stacks[i].length; j++) {
         let photoElement = this.createPhotoElement(stacks[i][j], width, config);
-        column.appendChild(createLinkElement(photoElement));
+        photoElement.setAttribute("data-action", "zoom");
+        column.appendChild(photoElement);
       }
       column.style.width = px(width);
       columnElements.appendChild(column);
@@ -200,13 +201,14 @@ class SquareRenderer extends Renderer {
       image.style.width = px(height);
       image.style.height = px(height);
       image.style.display = 'inline-block';
+      image.setAttribute("data-action", "zoom");
 
       // Only apply margins to second to last.
       if (i !== 0) {
         image.style.marginLeft = px(config.spacing);
       }
 
-      rowElem.appendChild(createLinkElement(image));
+      rowElem.appendChild(image);
     }
     return rowElem;
   }
@@ -304,7 +306,8 @@ class HorizontalRenderer extends Renderer {
         image.style.marginLeft = px(config.spacing);
       }
       
-      rowElem.appendChild(createLinkElement(image));
+      image.setAttribute("data-action", "zoom");
+      rowElem.appendChild(image);
     }
     return rowElem;
   }
@@ -339,17 +342,6 @@ class Photo {
 //
 // Helpers
 //
-
-/**
- * Wraps a given a photo element (div with a background image) inside a link
- * element (<a>) with an href to that photo, and return the link element.
- */
-function createLinkElement(photoElement) {
-  let link = document.createElement('a');
-  link.href = photoElement.src;
-  link.appendChild(photoElement);
-  return link;
-}
 
 /**
  * http://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array

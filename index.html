@@ -5,8 +5,9 @@
   <head>
     <title>{{ site.title }}</title>
     {% include favicon.html %}
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/zoom.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
   </head>
   <body>
@@ -20,7 +21,13 @@
     <div class="footer">Made by <a class="author"
         href="http://andyzhang.net/">Andy Zhang</a></div>
   </body>
-  <script src="gallery.js"></script>
+  <script 
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+  <script src="js/transition.js"></script>
+  <script src="js/zoom.min.js"></script>
+  <script src="js/gallery.js"></script>
   <script>
     var COLUMNS = 'columns';
     var ROWS = 'rows';
@@ -39,6 +46,6 @@
       maxHeight: {{ site.max_height }}
     };
   </script>
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
   {% include ga.html %}
 </html>
