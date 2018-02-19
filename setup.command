@@ -13,7 +13,7 @@ PHOTO_PATH = PATH + RELATIVE_PATH
 
 def get_directories():
     items = os.listdir(PHOTO_PATH)
-    return filter(lambda x: os.path.isdir(PHOTO_PATH + '/' + x), items)
+    return list(filter(lambda x: os.path.isdir(PHOTO_PATH + '/' + x), items))
 
 
 def is_image_path(path):
@@ -24,7 +24,7 @@ def is_image_path(path):
 
 def get_images(path):
     items = os.listdir(PHOTO_PATH + '/' + path)
-    filtered_items = filter(is_image_path, items)
+    filtered_items = list(filter(is_image_path, items))
 
     result = []
     for img in filtered_items:
@@ -45,26 +45,26 @@ def write_config(config):
 
 
 def run():
-    print 'Starting to collect all albums within the /photos directory...'
+    print('Starting to collect all albums within the /photos directory...')
     config = {}
     dirs = get_directories()
-    print 'Found {length} directories'.format(length=len(dirs))
+    print('Found {length} directories'.format(length=len(dirs)))
     for i, path in enumerate(dirs):
-        print str(i+1) + ': Processing photos for the album "{album}"'.format(
-            album=path)
+        print(str(i+1) + ': Processing photos for the album "{album}"'.format(
+            album=path))
         config[path] = get_images(path)
 
-        print '   Done processing {l} photos for "{album}"\n'.format(
+        print('   Done processing {l} photos for "{album}"\n'.format(
             l=len(config[path]),
-            album=path)
+            album=path))
 
-    print 'Done processing all {length} albums'.format(length=len(dirs))
-    print 'Writing files to {path} now...'.format(path=PATH + 'config.json')
+    print('Done processing all {length} albums'.format(length=len(dirs)))
+    print('Writing files to {path} now...'.format(path=PATH + 'config.json'))
     write_config(config)
-    print '''Done writing! You may now safely close this window :)
+    print('''Done writing! You may now safely close this window :)
 
 Thank you for using gallery! Share your gallery on Github!
-https://github.com/andyzg/gallery/issues/1'''
+https://github.com/andyzg/gallery/issues/1''')
     return 0
 
 
