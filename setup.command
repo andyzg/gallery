@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 
 try:
-    import StringIO
+    from StringIO import StringIO as sbIO
 except ImportError:
-    import io as StringIO
+    from io import BytesIO as sbIO
 import struct
 import os
 import sys
 import json
 
-PATH = os.path.dirname(sys.argv[0]) + '/'
+PATH = os.getcwd() + '/'
 RELATIVE_PATH = 'photos'
 PHOTO_PATH = PATH + RELATIVE_PATH
 
@@ -84,15 +84,15 @@ def getImageInfo(data):
     # See PNG 2. Edition spec (http://www.w3.org/TR/PNG/)
     # Bytes 0-7 are below, 4-byte chunk length, then 'IHDR'
     # and finally the 4-byte width, height
-    if ((size >= 24) and data.startswith('\211PNG\r\n\032\n') and
-          (data[12:16] == 'IHDR')):
+    if ((size >= 24) and data.startswith(b'\211PNG\r\n\032\n') and
+          (data[12:16] == b'IHDR')):
         content_type = 'image/png'
         w, h = struct.unpack(">LL", data[16:24])
         width = int(w)
         height = int(h)
 
     # Maybe this is for an older PNG version.
-    elif (size >= 16) and data.startswith('\211PNG\r\n\032\n'):
+    elif (size >= 16) and data.startswith(b'\211PNG\r\n\032\n'):
         # Check to see if we have the right content type
         content_type = 'image/png'
         w, h = struct.unpack(">LL", data[8:16])
@@ -100,9 +100,14 @@ def getImageInfo(data):
         height = int(h)
 
     # handle JPEGs
-    elif (size >= 2) and data.startswith('\377\330'):
+    elif (size >= 2) and data.startswith(b'\xff\xd8'):
         content_type = 'image/jpeg'
-        jpeg = StringIO.StringIO(data)
+        
+        try:
+            jpeg = sbIO(data) # Python 3
+        except:
+            jpeg = sbIO(str(data)) # Python 2
+        
         jpeg.read(2)
         b = jpeg.read(1)
         try:
