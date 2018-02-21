@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
-import StringIO
+try:
+    import StringIO
+except ImportError:
+    import io as StringIO
 import struct
 import os
 import sys
@@ -29,7 +32,7 @@ def get_images(path):
     result = []
     for img in filtered_items:
         width, height = 0, 0
-        with open(PHOTO_PATH + '/' + path + '/' + img) as f:
+        with open(PHOTO_PATH + '/' + path + '/' + img, 'rb') as f:
             _, width, height = getImageInfo(f.read())
         result.append({
             'width': width,
