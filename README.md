@@ -81,10 +81,8 @@ Columns takes priority if both are set.
 
 ## Next Steps
 - Make layout responsive
-- Support lazy loading
 - Support better album navigation
 - Create a better UX for setting up a gallery
-- Support zoom on a photo
 - Enable additional info on page(contact, links)
 - SEO
 
