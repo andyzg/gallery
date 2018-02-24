@@ -8,10 +8,19 @@ import struct
 import os
 import sys
 import json
+import re
 
 PATH = os.getcwd() + '/'
 RELATIVE_PATH = 'photos'
 PHOTO_PATH = PATH + RELATIVE_PATH
+
+
+def is_not_min_path(path):
+    return not is_min_path(path) and is_image_path(path)
+
+
+def is_min_path(path):
+    return '.min.' in path and is_image_path(path)
 
 
 def get_directories():
@@ -25,6 +34,10 @@ def is_image_path(path):
            path.endswith('png')
 
 
+def get_min_path(path):
+    return re.sub(r'\.(png|jpe?g)$', '.min.\g<1>', path)
+
+
 def get_images(path):
     items = os.listdir(PHOTO_PATH + '/' + path)
     filtered_items = list(filter(is_image_path, items))
@@ -32,12 +45,18 @@ def get_images(path):
     result = []
     for img in filtered_items:
         width, height = 0, 0
+        has_compressed = False
+        p = './' + RELATIVE_PATH + '/' + path + '/' + img
         with open(PHOTO_PATH + '/' + path + '/' + img, 'rb') as f:
             _, width, height = getImageInfo(f.read())
+        if os.path.isfile(get_min_path(p)):
+            has_compressed = True
         result.append({
             'width': width,
             'height': height,
-            'path': './' + RELATIVE_PATH + '/' + path + '/' + img
+            'path': './' + RELATIVE_PATH + '/' + path + '/' + img,
+            'compressed_path': get_min_path(p),
+            'compressed': has_compressed
         })
     return result
 
