@@ -15,6 +15,7 @@ function reqListener() {
   }
   var config = new Config(JSON.parse(this.responseText), configuration);
   renderer.render(config);
+  lazyload();
 }
 
 

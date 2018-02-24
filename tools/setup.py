@@ -15,6 +15,10 @@ RELATIVE_PATH = 'photos'
 PHOTO_PATH = PATH + RELATIVE_PATH
 
 
+def is_original(path):
+    return '.min.' not in path and '.placeholder.' not in path and is_image_path(path)
+
+
 def is_not_min_path(path):
     return not is_min_path(path) and is_image_path(path)
 
@@ -29,18 +33,24 @@ def get_directories():
 
 
 def is_image_path(path):
-    return path.endswith('jpg') or \
-           path.endswith('jpeg') or \
-           path.endswith('png')
+    return re.search(r'\.(jpe?g|png)$', path)
+
+
+def get_placeholder_path(path):
+    return get_path(path, 'placeholder')
 
 
 def get_min_path(path):
-    return re.sub(r'\.(png|jpe?g)$', '.min.\g<1>', path)
+    return get_path(path, 'min')
+
+
+def get_path(path, ext):
+    return re.sub(r'\.(png|jpe?g)$', '.' + ext + '.\g<1>', path)
 
 
 def get_images(path):
     items = os.listdir(PHOTO_PATH + '/' + path)
-    filtered_items = list(filter(is_image_path, items))
+    filtered_items = list(filter(is_original, items))
 
     result = []
     for img in filtered_items:
@@ -56,7 +66,8 @@ def get_images(path):
             'height': height,
             'path': './' + RELATIVE_PATH + '/' + path + '/' + img,
             'compressed_path': get_min_path(p),
-            'compressed': has_compressed
+            'compressed': has_compressed,
+            'placeholder_path': get_placeholder_path(p)
         })
     return result
 

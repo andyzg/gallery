@@ -1,432 +1,252 @@
 {
   "California": [
     {
+      "height": 2000,
       "compressed_path": "./photos/California/DSCF1894.min.jpg",
       "width": 1500,
-      "path": "./photos/California/DSCF1894.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/California/DSCF1894.placeholder.jpg",
+      "path": "./photos/California/DSCF1894.jpg"
     },
     {
-      "compressed_path": "./photos/California/DSCF3168.min.min.jpg",
-      "width": 480,
-      "path": "./photos/California/DSCF3168.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
-      "compressed_path": "./photos/California/DSCF4538.min.min.jpg",
-      "width": 512,
-      "path": "./photos/California/DSCF4538.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
+      "height": 2000,
       "compressed_path": "./photos/California/DSCF3168.min.jpg",
       "width": 1500,
-      "path": "./photos/California/DSCF3168.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/California/DSCF3168.placeholder.jpg",
+      "path": "./photos/California/DSCF3168.jpg"
     },
     {
-      "compressed_path": "./photos/California/DSCF2338.min.min.jpg",
-      "width": 480,
-      "path": "./photos/California/DSCF2338.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
-      "compressed_path": "./photos/California/DSCF1894.min.min.jpg",
-      "width": 480,
-      "path": "./photos/California/DSCF1894.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
+      "height": 2000,
       "compressed_path": "./photos/California/DSCF2338.min.jpg",
       "width": 1500,
-      "path": "./photos/California/DSCF2338.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/California/DSCF2338.placeholder.jpg",
+      "path": "./photos/California/DSCF2338.jpg"
     },
     {
+      "height": 2000,
       "compressed_path": "./photos/California/DSCF3621.min.jpg",
       "width": 1500,
-      "path": "./photos/California/DSCF3621.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/California/DSCF3621.placeholder.jpg",
+      "path": "./photos/California/DSCF3621.jpg"
     },
     {
-      "compressed_path": "./photos/California/DSCF3621.min.min.jpg",
-      "width": 480,
-      "path": "./photos/California/DSCF3621.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
+      "height": 2000,
       "compressed_path": "./photos/California/DSCF4538.min.jpg",
       "width": 1600,
-      "path": "./photos/California/DSCF4538.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/California/DSCF4538.placeholder.jpg",
+      "path": "./photos/California/DSCF4538.jpg"
     }
   ],
   "Travel": [
     {
+      "height": 2000,
       "compressed_path": "./photos/Travel/IMG_9227.min.jpg",
       "width": 1500,
-      "path": "./photos/Travel/IMG_9227.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/Travel/IMG_9227.placeholder.jpg",
+      "path": "./photos/Travel/IMG_9227.jpg"
     },
     {
+      "height": 2000,
       "compressed_path": "./photos/Travel/IMG_7593.min.jpg",
       "width": 1333,
-      "path": "./photos/Travel/IMG_7593.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/Travel/IMG_7593.placeholder.jpg",
+      "path": "./photos/Travel/IMG_7593.jpg"
     },
     {
-      "compressed_path": "./photos/Travel/IMG_9863.min.min.jpg",
-      "width": 480,
-      "path": "./photos/Travel/IMG_9863.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
+      "height": 2000,
       "compressed_path": "./photos/Travel/IMG_9966.min.jpg",
       "width": 1500,
-      "path": "./photos/Travel/IMG_9966.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/Travel/IMG_9966.placeholder.jpg",
+      "path": "./photos/Travel/IMG_9966.jpg"
     },
     {
-      "compressed_path": "./photos/Travel/IMG_7438.min.min.jpg",
-      "width": 640,
-      "path": "./photos/Travel/IMG_7438.min.jpg",
-      "compressed": false,
-      "height": 426
-    },
-    {
-      "compressed_path": "./photos/Travel/20160406-20160505DSCF2086.min.min.jpg",
-      "width": 480,
-      "path": "./photos/Travel/20160406-20160505DSCF2086.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
-      "compressed_path": "./photos/Travel/IMG_7593.min.min.jpg",
-      "width": 426,
-      "path": "./photos/Travel/IMG_7593.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
-      "compressed_path": "./photos/Travel/IMG_7575.min.min.jpg",
-      "width": 640,
-      "path": "./photos/Travel/IMG_7575.min.jpg",
-      "compressed": false,
-      "height": 480
-    },
-    {
-      "compressed_path": "./photos/Travel/IMG_9675.min.min.jpg",
-      "width": 640,
-      "path": "./photos/Travel/IMG_9675.min.jpg",
-      "compressed": false,
-      "height": 426
-    },
-    {
+      "height": 2000,
       "compressed_path": "./photos/Travel/IMG_9863.min.jpg",
       "width": 1500,
-      "path": "./photos/Travel/IMG_9863.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/Travel/IMG_9863.placeholder.jpg",
+      "path": "./photos/Travel/IMG_9863.jpg"
     },
     {
-      "compressed_path": "./photos/Travel/IMG_9227.min.min.jpg",
-      "width": 480,
-      "path": "./photos/Travel/IMG_9227.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
+      "height": 1333,
       "compressed_path": "./photos/Travel/IMG_9675.min.jpg",
       "width": 2000,
-      "path": "./photos/Travel/IMG_9675.jpg",
       "compressed": true,
-      "height": 1333
+      "placeholder_path": "./photos/Travel/IMG_9675.placeholder.jpg",
+      "path": "./photos/Travel/IMG_9675.jpg"
     },
     {
+      "height": 2000,
       "compressed_path": "./photos/Travel/20160406-20160505DSCF2086.min.jpg",
       "width": 1500,
-      "path": "./photos/Travel/20160406-20160505DSCF2086.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/Travel/20160406-20160505DSCF2086.placeholder.jpg",
+      "path": "./photos/Travel/20160406-20160505DSCF2086.jpg"
     },
     {
+      "height": 2000,
       "compressed_path": "./photos/Travel/20160407-20160506DSCF2292.min.jpg",
       "width": 1500,
-      "path": "./photos/Travel/20160407-20160506DSCF2292.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/Travel/20160407-20160506DSCF2292.placeholder.jpg",
+      "path": "./photos/Travel/20160407-20160506DSCF2292.jpg"
     },
     {
-      "compressed_path": "./photos/Travel/IMG_9966.min.min.jpg",
-      "width": 480,
-      "path": "./photos/Travel/IMG_9966.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
-      "compressed_path": "./photos/Travel/20160407-20160506DSCF2292.min.min.jpg",
-      "width": 480,
-      "path": "./photos/Travel/20160407-20160506DSCF2292.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
+      "height": 1333,
       "compressed_path": "./photos/Travel/IMG_7438.min.jpg",
       "width": 2000,
-      "path": "./photos/Travel/IMG_7438.jpg",
       "compressed": true,
-      "height": 1333
+      "placeholder_path": "./photos/Travel/IMG_7438.placeholder.jpg",
+      "path": "./photos/Travel/IMG_7438.jpg"
     },
     {
+      "height": 1500,
       "compressed_path": "./photos/Travel/IMG_7575.min.jpg",
       "width": 2000,
-      "path": "./photos/Travel/IMG_7575.jpg",
       "compressed": true,
-      "height": 1500
+      "placeholder_path": "./photos/Travel/IMG_7575.placeholder.jpg",
+      "path": "./photos/Travel/IMG_7575.jpg"
     }
   ],
   "Sunset": [
     {
+      "height": 2000,
       "compressed_path": "./photos/Sunset/DSCF3620.min.jpg",
       "width": 1500,
-      "path": "./photos/Sunset/DSCF3620.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/Sunset/DSCF3620.placeholder.jpg",
+      "path": "./photos/Sunset/DSCF3620.jpg"
     },
     {
-      "compressed_path": "./photos/Sunset/DSCF5784.min.min.jpg",
-      "width": 512,
-      "path": "./photos/Sunset/DSCF5784.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
-      "compressed_path": "./photos/Sunset/DSCF6512.min.min.jpg",
-      "width": 512,
-      "path": "./photos/Sunset/DSCF6512.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
+      "height": 2000,
       "compressed_path": "./photos/Sunset/DSCF5784.min.jpg",
       "width": 1600,
-      "path": "./photos/Sunset/DSCF5784.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/Sunset/DSCF5784.placeholder.jpg",
+      "path": "./photos/Sunset/DSCF5784.jpg"
     },
     {
-      "compressed_path": "./photos/Sunset/DSCF3620.min.min.jpg",
-      "width": 480,
-      "path": "./photos/Sunset/DSCF3620.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
+      "height": 2000,
       "compressed_path": "./photos/Sunset/DSCF6512.min.jpg",
       "width": 1600,
-      "path": "./photos/Sunset/DSCF6512.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/Sunset/DSCF6512.placeholder.jpg",
+      "path": "./photos/Sunset/DSCF6512.jpg"
     }
   ],
   "Architecture": [
     {
+      "height": 2000,
       "compressed_path": "./photos/Architecture/DSCF7399.min.jpg",
       "width": 1600,
-      "path": "./photos/Architecture/DSCF7399.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/Architecture/DSCF7399.placeholder.jpg",
+      "path": "./photos/Architecture/DSCF7399.jpg"
     },
     {
+      "height": 2000,
       "compressed_path": "./photos/Architecture/DSCF7277.min.jpg",
       "width": 1333,
-      "path": "./photos/Architecture/DSCF7277.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/Architecture/DSCF7277.placeholder.jpg",
+      "path": "./photos/Architecture/DSCF7277.jpg"
     },
     {
-      "compressed_path": "./photos/Architecture/DSCF7277.min.min.jpg",
-      "width": 426,
-      "path": "./photos/Architecture/DSCF7277.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
-      "compressed_path": "./photos/Architecture/DSCF7399.min.min.jpg",
-      "width": 512,
-      "path": "./photos/Architecture/DSCF7399.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
-      "compressed_path": "./photos/Architecture/DSCF7382.min.min.jpg",
-      "width": 426,
-      "path": "./photos/Architecture/DSCF7382.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
+      "height": 2000,
       "compressed_path": "./photos/Architecture/DSCF7382.min.jpg",
       "width": 1333,
-      "path": "./photos/Architecture/DSCF7382.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/Architecture/DSCF7382.placeholder.jpg",
+      "path": "./photos/Architecture/DSCF7382.jpg"
     }
   ],
   "People": [
     {
-      "compressed_path": "./photos/People/DSCF0802.min.min.jpg",
-      "width": 480,
-      "path": "./photos/People/DSCF0802.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
+      "height": 2000,
       "compressed_path": "./photos/People/DSCF3315.min.jpg",
       "width": 1500,
-      "path": "./photos/People/DSCF3315.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/People/DSCF3315.placeholder.jpg",
+      "path": "./photos/People/DSCF3315.jpg"
     },
     {
-      "compressed_path": "./photos/People/DSCF5996.min.min.jpg",
-      "width": 426,
-      "path": "./photos/People/DSCF5996.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
+      "height": 2000,
       "compressed_path": "./photos/People/DSCF5996.min.jpg",
       "width": 1333,
-      "path": "./photos/People/DSCF5996.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/People/DSCF5996.placeholder.jpg",
+      "path": "./photos/People/DSCF5996.jpg"
     },
     {
+      "height": 2000,
       "compressed_path": "./photos/People/DSCF3276.min.jpg",
       "width": 1500,
-      "path": "./photos/People/DSCF3276.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/People/DSCF3276.placeholder.jpg",
+      "path": "./photos/People/DSCF3276.jpg"
     },
     {
-      "compressed_path": "./photos/People/DSCF1981.min.min.jpg",
-      "width": 480,
-      "path": "./photos/People/DSCF1981.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
-      "compressed_path": "./photos/People/DSCF6786.min.min.jpg",
-      "width": 512,
-      "path": "./photos/People/DSCF6786.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
-      "compressed_path": "./photos/People/DSCF3276.min.min.jpg",
-      "width": 480,
-      "path": "./photos/People/DSCF3276.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
+      "height": 1500,
       "compressed_path": "./photos/People/DSCF0989.min.jpg",
       "width": 2000,
-      "path": "./photos/People/DSCF0989.jpg",
       "compressed": true,
-      "height": 1500
+      "placeholder_path": "./photos/People/DSCF0989.placeholder.jpg",
+      "path": "./photos/People/DSCF0989.jpg"
     },
     {
+      "height": 2000,
       "compressed_path": "./photos/People/DSCF0802.min.jpg",
       "width": 1500,
-      "path": "./photos/People/DSCF0802.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/People/DSCF0802.placeholder.jpg",
+      "path": "./photos/People/DSCF0802.jpg"
     },
     {
-      "compressed_path": "./photos/People/DSCF3315.min.min.jpg",
-      "width": 480,
-      "path": "./photos/People/DSCF3315.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
+      "height": 1250,
       "compressed_path": "./photos/People/IMG_7888.min.jpg",
       "width": 2000,
-      "path": "./photos/People/IMG_7888.jpg",
       "compressed": true,
-      "height": 1250
+      "placeholder_path": "./photos/People/IMG_7888.placeholder.jpg",
+      "path": "./photos/People/IMG_7888.jpg"
     },
     {
-      "compressed_path": "./photos/People/IMG_7888.min.min.jpg",
-      "width": 640,
-      "path": "./photos/People/IMG_7888.min.jpg",
-      "compressed": false,
-      "height": 400
-    },
-    {
+      "height": 2000,
       "compressed_path": "./photos/People/DSCF6786.min.jpg",
       "width": 1600,
-      "path": "./photos/People/DSCF6786.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/People/DSCF6786.placeholder.jpg",
+      "path": "./photos/People/DSCF6786.jpg"
     },
     {
+      "height": 2000,
       "compressed_path": "./photos/People/DSCF1981.min.jpg",
       "width": 1500,
-      "path": "./photos/People/DSCF1981.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/People/DSCF1981.placeholder.jpg",
+      "path": "./photos/People/DSCF1981.jpg"
     },
     {
+      "height": 2000,
       "compressed_path": "./photos/People/DSCF3356.min.jpg",
       "width": 1500,
-      "path": "./photos/People/DSCF3356.jpg",
       "compressed": true,
-      "height": 2000
+      "placeholder_path": "./photos/People/DSCF3356.placeholder.jpg",
+      "path": "./photos/People/DSCF3356.jpg"
     },
     {
-      "compressed_path": "./photos/People/DSCF0989.min.min.jpg",
-      "width": 640,
-      "path": "./photos/People/DSCF0989.min.jpg",
-      "compressed": false,
-      "height": 480
-    },
-    {
-      "compressed_path": "./photos/People/DSCF3356.min.min.jpg",
-      "width": 480,
-      "path": "./photos/People/DSCF3356.min.jpg",
-      "compressed": false,
-      "height": 640
-    },
-    {
+      "height": 1500,
       "compressed_path": "./photos/People/DSCF0589.min.jpg",
       "width": 2000,
-      "path": "./photos/People/DSCF0589.jpg",
       "compressed": true,
-      "height": 1500
-    },
-    {
-      "compressed_path": "./photos/People/DSCF0589.min.min.jpg",
-      "width": 640,
-      "path": "./photos/People/DSCF0589.min.jpg",
-      "compressed": false,
-      "height": 480
+      "placeholder_path": "./photos/People/DSCF0589.placeholder.jpg",
+      "path": "./photos/People/DSCF0589.jpg"
     }
   ]
 }

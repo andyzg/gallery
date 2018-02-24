@@ -48,6 +48,29 @@ class Renderer {
     sectionElem.appendChild(header);
     return sectionElem;
   }
+
+  createImageElement(photo, width, height, spacing) {
+    var image = new Image();
+
+    image.style.width = width;
+    image.style.height = height;
+    image.style.marginBottom = spacing;
+    image.onload = onImageLoad;
+    image.setAttribute("data-action", "zoom");
+
+    if (photo.isCompressed()) {
+      // Lazy loading + a compressed image
+      image.setAttribute("data-original", photo.originalSrc());
+      image.setAttribute("data-src", photo.compresedSrc());
+      image.src = photo.placeholderSrc();
+      image.classList.add('lazyload');
+    } else {
+      // Original
+      image.src = photo.src();
+    }
+
+    return image;
+  }
 }
 
 /**
@@ -109,19 +132,10 @@ class VerticalRenderer extends Renderer {
    * Creates one photo
    */
   createPhotoElement(photo, width, config) {
-    var image = new Image();
-
-    image.src = photo.src();
-    image.style.width = px(width);
-    image.style.height = px(photo.height(width));
-    image.style.marginBottom = px(config.spacing);
-    image.onload = onImageLoad;
-
-    if (photo.isCompressed()) {
-      image.setAttribute("data-original", photo.originalSrc());
-    }
-
-    return image;
+    return this.createImageElement(photo,
+                                   px(width),
+                                   px(photo.height(width)),
+                                   px(config.spacing));
   }
 
   /**
@@ -303,19 +317,13 @@ class HorizontalRenderer extends Renderer {
 
     for (var i = 0; i < photos.length; i++) {
       var photo = photos[i];
-      var image = new Image();
-      image.src = photo.src();
-      image.style.width = px(photo.width(finalHeight));
-      image.style.height = px(finalHeight);
-      image.onload = onImageLoad;
+      var image = this.createImageElement(photo,
+                                          px(photo.width(finalHeight)),
+                                          px(finalHeight),
+                                          px(0));
 
       if (i !== 0) {
         image.style.marginLeft = px(config.spacing);
-      }
-
-      image.setAttribute("data-action", "zoom");
-      if (photo.isCompressed()) {
-        image.setAttribute("data-original", photo.originalSrc());
       }
 
       rowElem.appendChild(image);
@@ -334,15 +342,13 @@ class Photo {
     this._width = p.width;
     this._height = p.height;
     this._is_compressed = p.compressed;
+    this.placeholder_path = p.placeholder_path;
     this.compressed_path = p.compressed_path;
 
     this.aspectRatio = this._width / parseFloat(this._height);
   };
 
   src() {
-    if (this._is_compressed) {
-      return this.compressed_path;
-    }
     return this.path;
   }
 
@@ -352,6 +358,14 @@ class Photo {
 
   originalSrc() {
     return this.path;
+  }
+
+  compresedSrc() {
+    return this.compressed_path;
+  }
+
+  placeholderSrc() {
+    return this.placeholder_path;
   }
 
   width(height) {
