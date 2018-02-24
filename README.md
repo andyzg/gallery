@@ -71,7 +71,6 @@ Columns takes priority if both are set.
 
 
 ## Fun Facts
-- No jQuery is used. AT ALL! 🔥🔥🔥
 - No Bootstrap is used. AT ALL! 🔥🔥🔥
 - It uses ES6. NEW TECH! 🔥🔥🔥
 - It has no local dependencies. SAY WHAT! 🔥🔥🔥
