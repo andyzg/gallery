@@ -117,6 +117,10 @@ class VerticalRenderer extends Renderer {
     image.style.marginBottom = px(config.spacing);
     image.onload = onImageLoad;
 
+    if (photo.isCompressed()) {
+      image.setAttribute("data-original", photo.originalSrc());
+    }
+
     return image;
   }
 
@@ -202,6 +206,9 @@ class SquareRenderer extends Renderer {
       image.style.height = px(height);
       image.style.display = 'inline-block';
       image.setAttribute("data-action", "zoom");
+      if (photo.isCompressed()) {
+        image.setAttribute("data-original", photo.originalSrc());
+      }
 
       // Only apply margins to second to last.
       if (i !== 0) {
@@ -305,8 +312,12 @@ class HorizontalRenderer extends Renderer {
       if (i !== 0) {
         image.style.marginLeft = px(config.spacing);
       }
-      
+
       image.setAttribute("data-action", "zoom");
+      if (photo.isCompressed()) {
+        image.setAttribute("data-original", photo.originalSrc());
+      }
+
       rowElem.appendChild(image);
     }
     return rowElem;
@@ -322,11 +333,24 @@ class Photo {
     this.path = p.path;
     this._width = p.width;
     this._height = p.height;
+    this._is_compressed = p.compressed;
+    this.compressed_path = p.compressed_path;
 
     this.aspectRatio = this._width / parseFloat(this._height);
   };
 
   src() {
+    if (this._is_compressed) {
+      return this.compressed_path;
+    }
+    return this.path;
+  }
+
+  isCompressed() {
+    return this._is_compressed;
+  }
+
+  originalSrc() {
     return this.path;
   }
 
