@@ -11,9 +11,9 @@ if [[ "$OSTYPE" == "darwin"* && -x "$(command -v sips)" ]]; then
 
   # placeholder image for lazy loading
   python tools/duplicate.py placeholder
-  sips -Z 64 photos/**/*.placeholder.jpeg &>/dev/null
-  sips -Z 64 photos/**/*.placeholder.png &>/dev/null
-  sips -Z 64 photos/**/*.placeholder.jpg &>/dev/null
+  sips -Z 32 photos/**/*.placeholder.jpeg &>/dev/null
+  sips -Z 32 photos/**/*.placeholder.png &>/dev/null
+  sips -Z 32 photos/**/*.placeholder.jpg &>/dev/null
 fi
 
 python tools/setup.py
