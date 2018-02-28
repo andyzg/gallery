@@ -11,7 +11,7 @@ A visual portfolio generator with web hosting for your mockups and photo albums.
 
 ## Making your own gallery in less than 5 minutes
 - Fork this repository🍴
-- Clone the repository through terminal by running 
+- Clone the repository through terminal by running
 `git clone git@github.com:{YOUR_USERNAME}/gallery.git`
 - Replace contents of `/photos` with all of your albums. For each of your albums, create a folder with the same name as your album name, and then put all of your photos in the folder. Example:
 ```
@@ -68,6 +68,10 @@ Columns takes priority if both are set.
 
 ### Row Configuration
 - `maxHeight` (Integer): The max height in px for each photo. *Default is `400`*.
+
+### Instagram
+- `instagram` (String): Your Instagram handle. If no string is passed, no footer
+  is rendered.
 
 
 ## Fun Facts

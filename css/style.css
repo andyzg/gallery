@@ -54,17 +54,29 @@ h3 {
   text-align: center;
 }
 
-.author {
-  transition: color 0.2s;
+.links {
+  padding-top: 32px;
 }
 
-.author:visited,
-.author:active,
-.author:link {
-  color: #999;
+.links__icon,
+.links__icon:visited,
+.links__icon:link {
+  color: #ccc;
   text-decoration: none;
+  font-size: 14px;
+  margin-right: 8px;
+  transition: 0.2s color;
+  line-height: 24px;
 }
 
-.author:hover {
-  color: #0099CC;
+.links__icon:hover {
+  color: #999;
+}
+
+.view-ig {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 18px;
 }
