@@ -82,14 +82,6 @@ Columns takes priority if both are set.
 
 🔥🔥🔥
 
-
-## Next Steps
-- Make layout responsive
-- Support better album navigation
-- Create a better UX for setting up a gallery
-- Enable additional info on page(contact, links)
-- SEO
-
 ---
 
 If you enjoyed using Gallery, I'd love to see what you created with Gallery 🙌
