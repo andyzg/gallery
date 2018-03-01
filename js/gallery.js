@@ -216,7 +216,7 @@ class SquareRenderer extends Renderer {
       image.style.backgroundPosition = 'center';
       image.style.backgroundSize = 'cover'
 
-      image.style.width = px(height);
+      image.style.width = px(height); // Square photo
       image.style.height = px(height);
       image.style.display = 'inline-block';
       image.setAttribute("data-action", "zoom");
@@ -311,7 +311,7 @@ class HorizontalRenderer extends Renderer {
       // If it barely reaches the max height, it looks like an error. So let's
       // just add a ton of padding by reducing the height of the row.
       if (sumWidth > targetWidth * 9 / 10) {
-        finalHeight = this._maxHeight * 0.9;
+        finalHeight = config.maxHeight * 0.9;
       }
     }
 
