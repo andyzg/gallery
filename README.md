@@ -13,10 +13,11 @@ A visual portfolio generator with web hosting for your mockups and photo albums.
 - Fork this repository🍴
 - Clone the repository through terminal by running
 `git clone git@github.com:{YOUR_USERNAME}/gallery.git`
-- Replace contents of `/photos` with all of your albums. For each of your albums, create a folder with the same name as your album name, and then put all of your photos in the folder. Example:
+- Replace contents of `/photos` with all of your albums. For each of your albums, create a folder with the same name as your album name, and then put all of your photos in the folder. 
+**Example**:
 ```
 /photos
-  /travel
+  /mockups
     IMG_0123.jpg
     IMG_0124.jpg
   /portrait
