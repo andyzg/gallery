@@ -10,7 +10,7 @@ import sys
 import json
 import re
 
-PATH = os.getcwd() + '/'
+PATH = os.path.dirname(__file__) + '/../'
 RELATIVE_PATH = 'photos'
 PHOTO_PATH = PATH + RELATIVE_PATH
 

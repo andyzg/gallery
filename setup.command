@@ -1,19 +1,21 @@
 #!/usr/bin/env bash
 
+SCRIPT_PATH=$(dirname "$0")
+
 # Create a duplicate of each photo, and then minify them
 if [[ "$OSTYPE" == "darwin"* && -x "$(command -v sips)" ]]; then
   # sips is available
   # low res version of image
-  python tools/duplicate.py min
-  sips -Z 640 photos/**/*.min.jpeg &>/dev/null
-  sips -Z 640 photos/**/*.min.png &>/dev/null
-  sips -Z 640 photos/**/*.min.jpg &>/dev/null
+  python $SCRIPT_PATH/tools/duplicate.py min
+  sips -Z 640 $SCRIPT_PATH/photos/**/*.min.jpeg &>/dev/null
+  sips -Z 640 $SCRIPT_PATH/photos/**/*.min.png &>/dev/null
+  sips -Z 640 $SCRIPT_PATH/photos/**/*.min.jpg &>/dev/null
 
   # placeholder image for lazy loading
-  python tools/duplicate.py placeholder
-  sips -Z 32 photos/**/*.placeholder.jpeg &>/dev/null
-  sips -Z 32 photos/**/*.placeholder.png &>/dev/null
-  sips -Z 32 photos/**/*.placeholder.jpg &>/dev/null
+  python $SCRIPT_PATH/tools/duplicate.py placeholder
+  sips -Z 32 $SCRIPT_PATH/photos/**/*.placeholder.jpeg &>/dev/null
+  sips -Z 32 $SCRIPT_PATH/photos/**/*.placeholder.png &>/dev/null
+  sips -Z 32 $SCRIPT_PATH/photos/**/*.placeholder.jpg &>/dev/null
 fi
 
-python tools/setup.py
+python $SCRIPT_PATH/tools/setup.py
