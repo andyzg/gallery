@@ -3,7 +3,7 @@ import re
 import shutil
 import sys
 
-PHOTO_PATH = './photos/'
+PHOTO_PATH = os.path.dirname(__file__) + '/../photos/'
 
 
 def is_image_path(path):
@@ -37,6 +37,7 @@ def main(ext):
             if is_image_path(path) and is_original(path):
                 min_path = get_path(path, ext)
                 shutil.copy(path, min_path)
+
 
 if __name__ == '__main__':
     main(sys.argv[1])
