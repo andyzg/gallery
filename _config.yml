@@ -3,10 +3,10 @@
 #############################
 
 # The title that appears on the tab
-title: Andy Zhang's Gallery
+title: Steeve Joseph's Portfolio
 
 # The title on the web page
-full_name: Andy Zhang
+full_name: Steeve Joseph
 
 # The type of layout
 # Options: ROWS, SQUARES, COLUMNS
@@ -28,7 +28,7 @@ columns: 4
 max_height: 400
 
 # Handle
-instagram: andy.fuji
+instagram: smj.ph
 
 ######################
 # END OF CONFIG CODE #
@@ -42,10 +42,10 @@ name: Gallery
 description: Photography Portfolio
 
 # Your name, as you want it to appear underneath each post and in the footer
-author: Andy Zhang
+author: Steeve Joseph
 
 # Your email if you want it to be linked on the contact page
-author_email: andzhng@gmail.com
+author_email: thesteevejoseph@gmail.com
 
 # The directory for category index pages. Change it to something else if
 # for example you want links like /categories/category1 instead of /category1
@@ -56,6 +56,5 @@ category_dir: /
 # Example, you must use http://localhost:4000/path/to/blog
 #baseurl: /path/to/blog
 baseurl: /
-
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 # url: http://andyzhang.net/gallery
