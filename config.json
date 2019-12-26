@@ -1,1084 +1,240 @@
 {
-  "Portraits": [
+  "Things": [
     {
-      "height": 4000,
-      "compressed_path": "./photos/Portraits/vj4w (2 of 9).min.jpg",
-      "width": 6000,
+      "height": 800,
+      "compressed_path": "./photos/Things/vj4w (1 of 7)-1200px.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/Portraits/vj4w (2 of 9).placeholder.jpg",
-      "path": "./photos/Portraits/vj4w (2 of 9).jpg"
+      "placeholder_path": "./photos/Things/vj4w (1 of 7)-1200px.placeholder.jpg",
+      "path": "./photos/Things/vj4w (1 of 7)-1200px.jpg"
     },
     {
-      "height": 3136,
-      "compressed_path": "./photos/Portraits/fremont_06-09-2019-0983.min.jpg",
-      "width": 3920,
+      "height": 800,
+      "compressed_path": "./photos/Things/dto_9-21-2019 (7 of 8)-1200px.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/Portraits/fremont_06-09-2019-0983.placeholder.jpg",
-      "path": "./photos/Portraits/fremont_06-09-2019-0983.jpg"
+      "placeholder_path": "./photos/Things/dto_9-21-2019 (7 of 8)-1200px.placeholder.jpg",
+      "path": "./photos/Things/dto_9-21-2019 (7 of 8)-1200px.jpg"
     },
     {
-      "height": 2811,
-      "compressed_path": "./photos/Portraits/pikeppl_5-19-2019 (11 of 19).min.jpg",
-      "width": 4542,
+      "height": 800,
+      "compressed_path": "./photos/Things/fremont_06-09-2019-0905-1200px.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/Portraits/pikeppl_5-19-2019 (11 of 19).placeholder.jpg",
-      "path": "./photos/Portraits/pikeppl_5-19-2019 (11 of 19).jpg"
+      "placeholder_path": "./photos/Things/fremont_06-09-2019-0905-1200px.placeholder.jpg",
+      "path": "./photos/Things/fremont_06-09-2019-0905-1200px.jpg"
     },
     {
-      "height": 3383,
-      "compressed_path": "./photos/Portraits/pikeppl_5-19-2019 (14 of 19).min.jpg",
-      "width": 5159,
+      "height": 773,
+      "compressed_path": "./photos/Things/DSC_0036-1200px.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/Portraits/pikeppl_5-19-2019 (14 of 19).placeholder.jpg",
-      "path": "./photos/Portraits/pikeppl_5-19-2019 (14 of 19).jpg"
-    },
-    {
-      "height": 2384,
-      "compressed_path": "./photos/Portraits/pikeppl_5-19-2019 (8 of 19).min.jpg",
-      "width": 5540,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/pikeppl_5-19-2019 (8 of 19).placeholder.jpg",
-      "path": "./photos/Portraits/pikeppl_5-19-2019 (8 of 19).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Portraits/josh_grad-9.min.jpg",
-      "width": 5000,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/josh_grad-9.placeholder.jpg",
-      "path": "./photos/Portraits/josh_grad-9.jpg"
-    },
-    {
-      "height": 3305,
-      "compressed_path": "./photos/Portraits/pikeppl_5-19-2019 (5 of 19).min.jpg",
-      "width": 5978,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/pikeppl_5-19-2019 (5 of 19).placeholder.jpg",
-      "path": "./photos/Portraits/pikeppl_5-19-2019 (5 of 19).jpg"
-    },
-    {
-      "height": 4812,
-      "compressed_path": "./photos/Portraits/jgo_s-1.min.jpg",
-      "width": 3850,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/jgo_s-1.placeholder.jpg",
-      "path": "./photos/Portraits/jgo_s-1.jpg"
-    },
-    {
-      "height": 3170,
-      "compressed_path": "./photos/Portraits/whidbey-18.min.jpg",
-      "width": 3286,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/whidbey-18.placeholder.jpg",
-      "path": "./photos/Portraits/whidbey-18.jpg"
-    },
-    {
-      "height": 3047,
-      "compressed_path": "./photos/Portraits/20190603-0373.min.jpg",
-      "width": 4570,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/20190603-0373.placeholder.jpg",
-      "path": "./photos/Portraits/20190603-0373.jpg"
-    },
-    {
-      "height": 5000,
-      "compressed_path": "./photos/Portraits/jgo_s-2.min.jpg",
-      "width": 4000,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/jgo_s-2.placeholder.jpg",
-      "path": "./photos/Portraits/jgo_s-2.jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Portraits/pike-place_06-09-2019-2.min.jpg",
-      "width": 3592,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/pike-place_06-09-2019-2.placeholder.jpg",
-      "path": "./photos/Portraits/pike-place_06-09-2019-2.jpg"
-    },
-    {
-      "height": 2318,
-      "compressed_path": "./photos/Portraits/20190303 (5 of 10).min.jpg",
-      "width": 3477,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/20190303 (5 of 10).placeholder.jpg",
-      "path": "./photos/Portraits/20190303 (5 of 10).jpg"
-    },
-    {
-      "height": 3357,
-      "compressed_path": "./photos/Portraits/20190603-0416.min.jpg",
-      "width": 5035,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/20190603-0416.placeholder.jpg",
-      "path": "./photos/Portraits/20190603-0416.jpg"
-    },
-    {
-      "height": 3241,
-      "compressed_path": "./photos/Portraits/pike-place_06-09-2019-3.min.jpg",
-      "width": 5571,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/pike-place_06-09-2019-3.placeholder.jpg",
-      "path": "./photos/Portraits/pike-place_06-09-2019-3.jpg"
-    },
-    {
-      "height": 6000,
-      "compressed_path": "./photos/Portraits/jgo_s-3.min.jpg",
-      "width": 4000,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/jgo_s-3.placeholder.jpg",
-      "path": "./photos/Portraits/jgo_s-3.jpg"
-    },
-    {
-      "height": 3944,
-      "compressed_path": "./photos/Portraits/whidbey-22.min.jpg",
-      "width": 4284,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/whidbey-22.placeholder.jpg",
-      "path": "./photos/Portraits/whidbey-22.jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Portraits/fremont_06-09-2019-0927.min.jpg",
-      "width": 5000,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/fremont_06-09-2019-0927.placeholder.jpg",
-      "path": "./photos/Portraits/fremont_06-09-2019-0927.jpg"
-    },
-    {
-      "height": 2081,
-      "compressed_path": "./photos/Portraits/whidbey-20.min.jpg",
-      "width": 4216,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/whidbey-20.placeholder.jpg",
-      "path": "./photos/Portraits/whidbey-20.jpg"
-    },
-    {
-      "height": 3810,
-      "compressed_path": "./photos/Portraits/jgo_b-3.min.jpg",
-      "width": 5715,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/jgo_b-3.placeholder.jpg",
-      "path": "./photos/Portraits/jgo_b-3.jpg"
-    },
-    {
-      "height": 3267,
-      "compressed_path": "./photos/Portraits/20190603-0384.min.jpg",
-      "width": 4901,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/20190603-0384.placeholder.jpg",
-      "path": "./photos/Portraits/20190603-0384.jpg"
-    },
-    {
-      "height": 3448,
-      "compressed_path": "./photos/Portraits/jgo_b-2.min.jpg",
-      "width": 4310,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/jgo_b-2.placeholder.jpg",
-      "path": "./photos/Portraits/jgo_b-2.jpg"
-    },
-    {
-      "height": 2685,
-      "compressed_path": "./photos/Portraits/20190303 (3 of 10).min.jpg",
-      "width": 4028,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/20190303 (3 of 10).placeholder.jpg",
-      "path": "./photos/Portraits/20190303 (3 of 10).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Portraits/pikeppl_5-19-2019 (4 of 19).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/pikeppl_5-19-2019 (4 of 19).placeholder.jpg",
-      "path": "./photos/Portraits/pikeppl_5-19-2019 (4 of 19).jpg"
-    },
-    {
-      "height": 3125,
-      "compressed_path": "./photos/Portraits/jgo_b-1.min.jpg",
-      "width": 3906,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/jgo_b-1.placeholder.jpg",
-      "path": "./photos/Portraits/jgo_b-1.jpg"
-    },
-    {
-      "height": 2508,
-      "compressed_path": "./photos/Portraits/whidbey-17.min.jpg",
-      "width": 4542,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/whidbey-17.placeholder.jpg",
-      "path": "./photos/Portraits/whidbey-17.jpg"
-    },
-    {
-      "height": 2092,
-      "compressed_path": "./photos/Portraits/whidbey-16.min.jpg",
-      "width": 3935,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/whidbey-16.placeholder.jpg",
-      "path": "./photos/Portraits/whidbey-16.jpg"
-    },
-    {
-      "height": 1801,
-      "compressed_path": "./photos/Portraits/20190303 (6 of 10).min.jpg",
-      "width": 2701,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/20190303 (6 of 10).placeholder.jpg",
-      "path": "./photos/Portraits/20190303 (6 of 10).jpg"
-    },
-    {
-      "height": 3259,
-      "compressed_path": "./photos/Portraits/pike-place_06-09-2019-12.min.jpg",
-      "width": 5999,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/pike-place_06-09-2019-12.placeholder.jpg",
-      "path": "./photos/Portraits/pike-place_06-09-2019-12.jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Portraits/20190303 (1 of 10).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/20190303 (1 of 10).placeholder.jpg",
-      "path": "./photos/Portraits/20190303 (1 of 10).jpg"
-    },
-    {
-      "height": 3013,
-      "compressed_path": "./photos/Portraits/20190303 (10 of 10).min.jpg",
-      "width": 4520,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/20190303 (10 of 10).placeholder.jpg",
-      "path": "./photos/Portraits/20190303 (10 of 10).jpg"
-    },
-    {
-      "height": 3928,
-      "compressed_path": "./photos/Portraits/josh_grad-5.min.jpg",
-      "width": 4910,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/josh_grad-5.placeholder.jpg",
-      "path": "./photos/Portraits/josh_grad-5.jpg"
-    },
-    {
-      "height": 3495,
-      "compressed_path": "./photos/Portraits/pikeppl_5-19-2019 (6 of 19).min.jpg",
-      "width": 4800,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/pikeppl_5-19-2019 (6 of 19).placeholder.jpg",
-      "path": "./photos/Portraits/pikeppl_5-19-2019 (6 of 19).jpg"
-    },
-    {
-      "height": 5000,
-      "compressed_path": "./photos/Portraits/josh_grad-2.min.jpg",
-      "width": 4000,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/josh_grad-2.placeholder.jpg",
-      "path": "./photos/Portraits/josh_grad-2.jpg"
-    },
-    {
-      "height": 2654,
-      "compressed_path": "./photos/Portraits/pikeppl_5-19-2019 (12 of 19).min.jpg",
-      "width": 3735,
-      "compressed": false,
-      "placeholder_path": "./photos/Portraits/pikeppl_5-19-2019 (12 of 19).placeholder.jpg",
-      "path": "./photos/Portraits/pikeppl_5-19-2019 (12 of 19).jpg"
-    }
-  ],
-  "Abstract": [
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/DSC_0024.min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/DSC_0024.placeholder.jpg",
-      "path": "./photos/Abstract/DSC_0024.jpg"
-    },
-    {
-      "height": 2620,
-      "compressed_path": "./photos/Abstract/dto_9-21-2019 (8 of 8).min.jpg",
-      "width": 5125,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/dto_9-21-2019 (8 of 8).placeholder.jpg",
-      "path": "./photos/Abstract/dto_9-21-2019 (8 of 8).jpg"
-    },
-    {
-      "height": 3970,
-      "compressed_path": "./photos/Abstract/DSC_0027.min.jpg",
-      "width": 5539,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/DSC_0027.placeholder.jpg",
-      "path": "./photos/Abstract/DSC_0027.jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/vj4w (1 of 7).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/vj4w (1 of 7).placeholder.jpg",
-      "path": "./photos/Abstract/vj4w (1 of 7).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/fremont_06-09-2019-0969.min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/fremont_06-09-2019-0969.placeholder.jpg",
-      "path": "./photos/Abstract/fremont_06-09-2019-0969.jpg"
-    },
-    {
-      "height": 1812,
-      "compressed_path": "./photos/Abstract/dto_9-21-2019 (5 of 8).min.jpg",
-      "width": 4957,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/dto_9-21-2019 (5 of 8).placeholder.jpg",
-      "path": "./photos/Abstract/dto_9-21-2019 (5 of 8).jpg"
-    },
-    {
-      "height": 3509,
-      "compressed_path": "./photos/Abstract/DSC_0036.min.jpg",
-      "width": 5449,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/DSC_0036.placeholder.jpg",
-      "path": "./photos/Abstract/DSC_0036.jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/dto_9-21-2019 (3 of 8).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/dto_9-21-2019 (3 of 8).placeholder.jpg",
-      "path": "./photos/Abstract/dto_9-21-2019 (3 of 8).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/DSC_0021.min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/DSC_0021.placeholder.jpg",
-      "path": "./photos/Abstract/DSC_0021.jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/pikeppl_5-19-2019 (19 of 19).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/pikeppl_5-19-2019 (19 of 19).placeholder.jpg",
-      "path": "./photos/Abstract/pikeppl_5-19-2019 (19 of 19).jpg"
-    },
-    {
-      "height": 3271,
-      "compressed_path": "./photos/Abstract/sea_8-4-2019 (3 of 3).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/sea_8-4-2019 (3 of 3).placeholder.jpg",
-      "path": "./photos/Abstract/sea_8-4-2019 (3 of 3).jpg"
-    },
-    {
-      "height": 3653,
-      "compressed_path": "./photos/Abstract/vj4w (9 of 9).min.jpg",
-      "width": 5764,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/vj4w (9 of 9).placeholder.jpg",
-      "path": "./photos/Abstract/vj4w (9 of 9).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/vj4w (7 of 7).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/vj4w (7 of 7).placeholder.jpg",
-      "path": "./photos/Abstract/vj4w (7 of 7).jpg"
-    },
-    {
-      "height": 2362,
-      "compressed_path": "./photos/Abstract/whidbey-31.min.jpg",
-      "width": 4733,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/whidbey-31.placeholder.jpg",
-      "path": "./photos/Abstract/whidbey-31.jpg"
-    },
-    {
-      "height": 2306,
-      "compressed_path": "./photos/Abstract/pikeppl_5-19-2019 (2 of 19).min.jpg",
-      "width": 4867,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/pikeppl_5-19-2019 (2 of 19).placeholder.jpg",
-      "path": "./photos/Abstract/pikeppl_5-19-2019 (2 of 19).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/fremont_06-09-2019-0937.min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/fremont_06-09-2019-0937.placeholder.jpg",
-      "path": "./photos/Abstract/fremont_06-09-2019-0937.jpg"
-    },
-    {
-      "height": 1913,
-      "compressed_path": "./photos/Abstract/whidbey-27.min.jpg",
-      "width": 5035,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/whidbey-27.placeholder.jpg",
-      "path": "./photos/Abstract/whidbey-27.jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/fremont_06-09-2019-0936.min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/fremont_06-09-2019-0936.placeholder.jpg",
-      "path": "./photos/Abstract/fremont_06-09-2019-0936.jpg"
-    },
-    {
-      "height": 3210,
-      "compressed_path": "./photos/Abstract/dto_9-21-2019 (4 of 8).min.jpg",
-      "width": 5557,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/dto_9-21-2019 (4 of 8).placeholder.jpg",
-      "path": "./photos/Abstract/dto_9-21-2019 (4 of 8).jpg"
-    },
-    {
-      "height": 2699,
-      "compressed_path": "./photos/Abstract/pikeppl_5-19-2019 (13 of 19).min.jpg",
-      "width": 3488,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/pikeppl_5-19-2019 (13 of 19).placeholder.jpg",
-      "path": "./photos/Abstract/pikeppl_5-19-2019 (13 of 19).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/pikeppl_5-19-2019 (16 of 19).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/pikeppl_5-19-2019 (16 of 19).placeholder.jpg",
-      "path": "./photos/Abstract/pikeppl_5-19-2019 (16 of 19).jpg"
-    },
-    {
-      "height": 2519,
-      "compressed_path": "./photos/Abstract/dto_9-21-2019 (2 of 8).min.jpg",
-      "width": 5170,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/dto_9-21-2019 (2 of 8).placeholder.jpg",
-      "path": "./photos/Abstract/dto_9-21-2019 (2 of 8).jpg"
-    },
-    {
-      "height": 3529,
-      "compressed_path": "./photos/Abstract/pikeppl_5-19-2019 (7 of 19).min.jpg",
-      "width": 5843,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/pikeppl_5-19-2019 (7 of 19).placeholder.jpg",
-      "path": "./photos/Abstract/pikeppl_5-19-2019 (7 of 19).jpg"
+      "placeholder_path": "./photos/Things/DSC_0036-1200px.placeholder.jpg",
+      "path": "./photos/Things/DSC_0036-1200px.jpg"
     },
     {
       "height": 2856,
-      "compressed_path": "./photos/Abstract/sea_8-4-2019 (2 of 3).min.jpg",
+      "compressed_path": "./photos/Things/sea_8-4-2019 (2 of 3).min.jpg",
       "width": 5473,
       "compressed": false,
-      "placeholder_path": "./photos/Abstract/sea_8-4-2019 (2 of 3).placeholder.jpg",
-      "path": "./photos/Abstract/sea_8-4-2019 (2 of 3).jpg"
+      "placeholder_path": "./photos/Things/sea_8-4-2019 (2 of 3).placeholder.jpg",
+      "path": "./photos/Things/sea_8-4-2019 (2 of 3).jpg"
     },
     {
-      "height": 3720,
-      "compressed_path": "./photos/Abstract/vj4w (6 of 7).min.jpg",
-      "width": 5204,
+      "height": 678,
+      "compressed_path": "./photos/Things/dto_9-21-2019 (6 of 8)-1200px.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/Abstract/vj4w (6 of 7).placeholder.jpg",
-      "path": "./photos/Abstract/vj4w (6 of 7).jpg"
+      "placeholder_path": "./photos/Things/dto_9-21-2019 (6 of 8)-1200px.placeholder.jpg",
+      "path": "./photos/Things/dto_9-21-2019 (6 of 8)-1200px.jpg"
     },
     {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/pikeppl_5-19-2019 (9 of 19).min.jpg",
-      "width": 6000,
+      "height": 566,
+      "compressed_path": "./photos/Things/pikeppl_5-19-2019 (1 of 19)-1200px.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/Abstract/pikeppl_5-19-2019 (9 of 19).placeholder.jpg",
-      "path": "./photos/Abstract/pikeppl_5-19-2019 (9 of 19).jpg"
+      "placeholder_path": "./photos/Things/pikeppl_5-19-2019 (1 of 19)-1200px.placeholder.jpg",
+      "path": "./photos/Things/pikeppl_5-19-2019 (1 of 19)-1200px.jpg"
     },
     {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/pikeppl_5-19-2019 (18 of 19).min.jpg",
-      "width": 6000,
+      "height": 800,
+      "compressed_path": "./photos/Things/vj4w (3 of 7)-1200px.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/Abstract/pikeppl_5-19-2019 (18 of 19).placeholder.jpg",
-      "path": "./photos/Abstract/pikeppl_5-19-2019 (18 of 19).jpg"
+      "placeholder_path": "./photos/Things/vj4w (3 of 7)-1200px.placeholder.jpg",
+      "path": "./photos/Things/vj4w (3 of 7)-1200px.jpg"
     },
     {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/dto_9-21-2019 (7 of 8).min.jpg",
-      "width": 6000,
+      "height": 626,
+      "compressed_path": "./photos/Things/sea_8-4-2019 (2 of 3)-1200px.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/Abstract/dto_9-21-2019 (7 of 8).placeholder.jpg",
-      "path": "./photos/Abstract/dto_9-21-2019 (7 of 8).jpg"
+      "placeholder_path": "./photos/Things/sea_8-4-2019 (2 of 3)-1200px.placeholder.jpg",
+      "path": "./photos/Things/sea_8-4-2019 (2 of 3)-1200px.jpg"
     },
     {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/vj4w (3 of 7).min.jpg",
-      "width": 6000,
+      "height": 693,
+      "compressed_path": "./photos/Things/dto_9-21-2019 (4 of 8)-1200px.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/Abstract/vj4w (3 of 7).placeholder.jpg",
-      "path": "./photos/Abstract/vj4w (3 of 7).jpg"
-    },
-    {
-      "height": 2328,
-      "compressed_path": "./photos/Abstract/pikeppl_5-19-2019 (1 of 19).min.jpg",
-      "width": 4934,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/pikeppl_5-19-2019 (1 of 19).placeholder.jpg",
-      "path": "./photos/Abstract/pikeppl_5-19-2019 (1 of 19).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/vj4w (6 of 9).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/vj4w (6 of 9).placeholder.jpg",
-      "path": "./photos/Abstract/vj4w (6 of 9).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/DSC_0060.min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/DSC_0060.placeholder.jpg",
-      "path": "./photos/Abstract/DSC_0060.jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/DSC_0465.min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/DSC_0465.placeholder.jpg",
-      "path": "./photos/Abstract/DSC_0465.jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/pikeppl_5-19-2019 (10 of 19).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/pikeppl_5-19-2019 (10 of 19).placeholder.jpg",
-      "path": "./photos/Abstract/pikeppl_5-19-2019 (10 of 19).jpg"
-    },
-    {
-      "height": 2418,
-      "compressed_path": "./photos/Abstract/sea_8-4-2019 (1 of 3).min.jpg",
-      "width": 5978,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/sea_8-4-2019 (1 of 3).placeholder.jpg",
-      "path": "./photos/Abstract/sea_8-4-2019 (1 of 3).jpg"
-    },
-    {
-      "height": 2631,
-      "compressed_path": "./photos/Abstract/vj4w (5 of 7).min.jpg",
-      "width": 5203,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/vj4w (5 of 7).placeholder.jpg",
-      "path": "./photos/Abstract/vj4w (5 of 7).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/fremont_06-09-2019-0905.min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/fremont_06-09-2019-0905.placeholder.jpg",
-      "path": "./photos/Abstract/fremont_06-09-2019-0905.jpg"
-    },
-    {
-      "height": 3159,
-      "compressed_path": "./photos/Abstract/dto_9-21-2019 (1 of 8).min.jpg",
-      "width": 5787,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/dto_9-21-2019 (1 of 8).placeholder.jpg",
-      "path": "./photos/Abstract/dto_9-21-2019 (1 of 8).jpg"
-    },
-    {
-      "height": 2471,
-      "compressed_path": "./photos/Abstract/DSC_0039.min.jpg",
-      "width": 4921,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/DSC_0039.placeholder.jpg",
-      "path": "./photos/Abstract/DSC_0039.jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/pikeppl_5-19-2019 (17 of 19).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/pikeppl_5-19-2019 (17 of 19).placeholder.jpg",
-      "path": "./photos/Abstract/pikeppl_5-19-2019 (17 of 19).jpg"
-    },
-    {
-      "height": 2788,
-      "compressed_path": "./photos/Abstract/dto_9-21-2019 (6 of 8).min.jpg",
-      "width": 4934,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/dto_9-21-2019 (6 of 8).placeholder.jpg",
-      "path": "./photos/Abstract/dto_9-21-2019 (6 of 8).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/vj4w (2 of 7).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/vj4w (2 of 7).placeholder.jpg",
-      "path": "./photos/Abstract/vj4w (2 of 7).jpg"
-    },
-    {
-      "height": 2586,
-      "compressed_path": "./photos/Abstract/vj4w (7 of 9).min.jpg",
-      "width": 5999,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/vj4w (7 of 9).placeholder.jpg",
-      "path": "./photos/Abstract/vj4w (7 of 9).jpg"
-    },
-    {
-      "height": 3641,
-      "compressed_path": "./photos/Abstract/pikeppl_5-19-2019 (3 of 19).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/pikeppl_5-19-2019 (3 of 19).placeholder.jpg",
-      "path": "./photos/Abstract/pikeppl_5-19-2019 (3 of 19).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Abstract/fremont_06-09-2019-0967.min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Abstract/fremont_06-09-2019-0967.placeholder.jpg",
-      "path": "./photos/Abstract/fremont_06-09-2019-0967.jpg"
+      "placeholder_path": "./photos/Things/dto_9-21-2019 (4 of 8)-1200px.placeholder.jpg",
+      "path": "./photos/Things/dto_9-21-2019 (4 of 8)-1200px.jpg"
     }
   ],
-  "Events": [
+  "Places": [
     {
-      "height": 4000,
-      "compressed_path": "./photos/Events/whidbey-9.min.jpg",
-      "width": 6000,
+      "height": 800,
+      "compressed_path": "./photos/Places/lake_serene (12 of 24)-1200px.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/Events/whidbey-9.placeholder.jpg",
-      "path": "./photos/Events/whidbey-9.jpg"
+      "placeholder_path": "./photos/Places/lake_serene (12 of 24)-1200px.placeholder.jpg",
+      "path": "./photos/Places/lake_serene (12 of 24)-1200px.jpg"
     },
     {
-      "height": 2643,
-      "compressed_path": "./photos/Events/shpe_09-25-2019 (7 of 11).min.jpg",
-      "width": 5462,
+      "height": 800,
+      "compressed_path": "./photos/Places/lake_serene (17 of 24)-1200px.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/Events/shpe_09-25-2019 (7 of 11).placeholder.jpg",
-      "path": "./photos/Events/shpe_09-25-2019 (7 of 11).jpg"
+      "placeholder_path": "./photos/Places/lake_serene (17 of 24)-1200px.placeholder.jpg",
+      "path": "./photos/Places/lake_serene (17 of 24)-1200px.jpg"
     },
     {
-      "height": 4000,
-      "compressed_path": "./photos/Events/whidbey-8.min.jpg",
-      "width": 6000,
+      "height": 800,
+      "compressed_path": "./photos/Places/fremont_06-09-2019-0009-1200px.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/Events/whidbey-8.placeholder.jpg",
-      "path": "./photos/Events/whidbey-8.jpg"
+      "placeholder_path": "./photos/Places/fremont_06-09-2019-0009-1200px.placeholder.jpg",
+      "path": "./photos/Places/fremont_06-09-2019-0009-1200px.jpg"
     },
     {
-      "height": 2934,
-      "compressed_path": "./photos/Events/shpe_09-25-2019 (11 of 11).min.jpg",
-      "width": 5361,
+      "height": 800,
+      "compressed_path": "./photos/Places/DSC_0465-1200px.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/Events/shpe_09-25-2019 (11 of 11).placeholder.jpg",
-      "path": "./photos/Events/shpe_09-25-2019 (11 of 11).jpg"
+      "placeholder_path": "./photos/Places/DSC_0465-1200px.placeholder.jpg",
+      "path": "./photos/Places/DSC_0465-1200px.jpg"
     },
     {
-      "height": 4000,
-      "compressed_path": "./photos/Events/shpe_09-25-2019 (2 of 11).min.jpg",
-      "width": 6000,
+      "height": 722,
+      "compressed_path": "./photos/Places/20190305_e (1 of 6)-1200px.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/Events/shpe_09-25-2019 (2 of 11).placeholder.jpg",
-      "path": "./photos/Events/shpe_09-25-2019 (2 of 11).jpg"
+      "placeholder_path": "./photos/Places/20190305_e (1 of 6)-1200px.placeholder.jpg",
+      "path": "./photos/Places/20190305_e (1 of 6)-1200px.jpg"
     },
     {
-      "height": 3877,
-      "compressed_path": "./photos/Events/shpe_09-25-2019 (5 of 11).min.jpg",
-      "width": 6000,
+      "height": 800,
+      "compressed_path": "./photos/Places/lake_serene (9 of 24)-1200px.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/Events/shpe_09-25-2019 (5 of 11).placeholder.jpg",
-      "path": "./photos/Events/shpe_09-25-2019 (5 of 11).jpg"
-    },
-    {
-      "height": 2351,
-      "compressed_path": "./photos/Events/shpe_09-25-2019 (8 of 11).min.jpg",
-      "width": 4385,
-      "compressed": false,
-      "placeholder_path": "./photos/Events/shpe_09-25-2019 (8 of 11).placeholder.jpg",
-      "path": "./photos/Events/shpe_09-25-2019 (8 of 11).jpg"
-    },
-    {
-      "height": 2911,
-      "compressed_path": "./photos/Events/whidbey-12.min.jpg",
-      "width": 4978,
-      "compressed": false,
-      "placeholder_path": "./photos/Events/whidbey-12.placeholder.jpg",
-      "path": "./photos/Events/whidbey-12.jpg"
-    },
-    {
-      "height": 2620,
-      "compressed_path": "./photos/Events/shpe_09-25-2019 (3 of 11).min.jpg",
-      "width": 5507,
-      "compressed": false,
-      "placeholder_path": "./photos/Events/shpe_09-25-2019 (3 of 11).placeholder.jpg",
-      "path": "./photos/Events/shpe_09-25-2019 (3 of 11).jpg"
-    },
-    {
-      "height": 3663,
-      "compressed_path": "./photos/Events/shpe_09-25-2019 (6 of 11).min.jpg",
-      "width": 5865,
-      "compressed": false,
-      "placeholder_path": "./photos/Events/shpe_09-25-2019 (6 of 11).placeholder.jpg",
-      "path": "./photos/Events/shpe_09-25-2019 (6 of 11).jpg"
-    },
-    {
-      "height": 2126,
-      "compressed_path": "./photos/Events/shpe_09-25-2019 (10 of 11).min.jpg",
-      "width": 4564,
-      "compressed": false,
-      "placeholder_path": "./photos/Events/shpe_09-25-2019 (10 of 11).placeholder.jpg",
-      "path": "./photos/Events/shpe_09-25-2019 (10 of 11).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Events/vj4w (1 of 9).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Events/vj4w (1 of 9).placeholder.jpg",
-      "path": "./photos/Events/vj4w (1 of 9).jpg"
-    },
-    {
-      "height": 3125,
-      "compressed_path": "./photos/Events/shpe_09-25-2019 (1 of 11).min.jpg",
-      "width": 4598,
-      "compressed": false,
-      "placeholder_path": "./photos/Events/shpe_09-25-2019 (1 of 11).placeholder.jpg",
-      "path": "./photos/Events/shpe_09-25-2019 (1 of 11).jpg"
-    },
-    {
-      "height": 3181,
-      "compressed_path": "./photos/Events/whidbey-2.min.jpg",
-      "width": 5439,
-      "compressed": false,
-      "placeholder_path": "./photos/Events/whidbey-2.placeholder.jpg",
-      "path": "./photos/Events/whidbey-2.jpg"
-    },
-    {
-      "height": 2530,
-      "compressed_path": "./photos/Events/shpe_09-25-2019 (4 of 11).min.jpg",
-      "width": 4654,
-      "compressed": false,
-      "placeholder_path": "./photos/Events/shpe_09-25-2019 (4 of 11).placeholder.jpg",
-      "path": "./photos/Events/shpe_09-25-2019 (4 of 11).jpg"
-    },
-    {
-      "height": 2138,
-      "compressed_path": "./photos/Events/shpe_09-25-2019 (9 of 11).min.jpg",
-      "width": 4621,
-      "compressed": false,
-      "placeholder_path": "./photos/Events/shpe_09-25-2019 (9 of 11).placeholder.jpg",
-      "path": "./photos/Events/shpe_09-25-2019 (9 of 11).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Events/whidbey-4.min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Events/whidbey-4.placeholder.jpg",
-      "path": "./photos/Events/whidbey-4.jpg"
-    }
-  ],
-  "Landscape": [
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/fremont_06-09-2019-0943.min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/fremont_06-09-2019-0943.placeholder.jpg",
-      "path": "./photos/Landscape/fremont_06-09-2019-0943.jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (8 of 24).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (8 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (8 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (12 of 24).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (12 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (12 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (5 of 24).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (5 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (5 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/fremont_06-09-2019-0996.min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/fremont_06-09-2019-0996.placeholder.jpg",
-      "path": "./photos/Landscape/fremont_06-09-2019-0996.jpg"
-    },
-    {
-      "height": 2620,
-      "compressed_path": "./photos/Landscape/lake_serene (20 of 24).min.jpg",
-      "width": 3645,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (20 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (20 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (17 of 24).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (17 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (17 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/20190305_e (6 of 6).min.jpg",
-      "width": 5720,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/20190305_e (6 of 6).placeholder.jpg",
-      "path": "./photos/Landscape/20190305_e (6 of 6).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/fremont_06-09-2019-0005.min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/fremont_06-09-2019-0005.placeholder.jpg",
-      "path": "./photos/Landscape/fremont_06-09-2019-0005.jpg"
-    },
-    {
-      "height": 2653,
-      "compressed_path": "./photos/Landscape/20190305_e (1 of 6).min.jpg",
-      "width": 4407,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/20190305_e (1 of 6).placeholder.jpg",
-      "path": "./photos/Landscape/20190305_e (1 of 6).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (7 of 24).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (7 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (7 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (10 of 24).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (10 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (10 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (2 of 24).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (2 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (2 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (15 of 24).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (15 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (15 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (22 of 24).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (22 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (22 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/fremont_06-09-2019-0931.min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/fremont_06-09-2019-0931.placeholder.jpg",
-      "path": "./photos/Landscape/fremont_06-09-2019-0931.jpg"
-    },
-    {
-      "height": 1924,
-      "compressed_path": "./photos/Landscape/lake_serene (18 of 24).min.jpg",
-      "width": 3656,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (18 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (18 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (21 of 24).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (21 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (21 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (16 of 24).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (16 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (16 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/20190305_e (1 of 4).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/20190305_e (1 of 4).placeholder.jpg",
-      "path": "./photos/Landscape/20190305_e (1 of 4).jpg"
+      "placeholder_path": "./photos/Places/lake_serene (9 of 24)-1200px.placeholder.jpg",
+      "path": "./photos/Places/lake_serene (9 of 24)-1200px.jpg"
     },
     {
       "height": 1890,
-      "compressed_path": "./photos/Landscape/20190305_e (2 of 6).min.jpg",
+      "compressed_path": "./photos/Places/20190305_e (2 of 6).min.jpg",
       "width": 3150,
       "compressed": false,
-      "placeholder_path": "./photos/Landscape/20190305_e (2 of 6).placeholder.jpg",
-      "path": "./photos/Landscape/20190305_e (2 of 6).jpg"
+      "placeholder_path": "./photos/Places/20190305_e (2 of 6).placeholder.jpg",
+      "path": "./photos/Places/20190305_e (2 of 6).jpg"
     },
     {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (1 of 24).min.jpg",
-      "width": 6000,
+      "height": 720,
+      "compressed_path": "./photos/Places/20190305_e (2 of 6)-1200px.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (1 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (1 of 24).jpg"
+      "placeholder_path": "./photos/Places/20190305_e (2 of 6)-1200px.placeholder.jpg",
+      "path": "./photos/Places/20190305_e (2 of 6)-1200px.jpg"
     },
     {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (9 of 24).min.jpg",
-      "width": 6000,
+      "height": 800,
+      "compressed_path": "./photos/Places/fremont_06-09-2019-0996-1200px.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (9 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (9 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (13 of 24).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (13 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (13 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (24 of 24).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (24 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (24 of 24).jpg"
-    },
-    {
-      "height": 2822,
-      "compressed_path": "./photos/Landscape/lake_serene (4 of 24).min.jpg",
-      "width": 5316,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (4 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (4 of 24).jpg"
-    },
-    {
-      "height": 2810,
-      "compressed_path": "./photos/Landscape/20190305_e (3 of 6).min.jpg",
-      "width": 5337,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/20190305_e (3 of 6).placeholder.jpg",
-      "path": "./photos/Landscape/20190305_e (3 of 6).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (3 of 24).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (3 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (3 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (14 of 24).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (14 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (14 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (23 of 24).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (23 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (23 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/fremont_06-09-2019-0961.min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/fremont_06-09-2019-0961.placeholder.jpg",
-      "path": "./photos/Landscape/fremont_06-09-2019-0961.jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/fremont_06-09-2019-0009.min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/fremont_06-09-2019-0009.placeholder.jpg",
-      "path": "./photos/Landscape/fremont_06-09-2019-0009.jpg"
-    },
-    {
-      "height": 1958,
-      "compressed_path": "./photos/Landscape/lake_serene (19 of 24).min.jpg",
-      "width": 3712,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (19 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (19 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/fremont_06-09-2019-0973.min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/fremont_06-09-2019-0973.placeholder.jpg",
-      "path": "./photos/Landscape/fremont_06-09-2019-0973.jpg"
-    },
-    {
-      "height": 3529,
-      "compressed_path": "./photos/Landscape/lake_serene (6 of 24).min.jpg",
-      "width": 5787,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (6 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (6 of 24).jpg"
-    },
-    {
-      "height": 4000,
-      "compressed_path": "./photos/Landscape/lake_serene (11 of 24).min.jpg",
-      "width": 6000,
-      "compressed": false,
-      "placeholder_path": "./photos/Landscape/lake_serene (11 of 24).placeholder.jpg",
-      "path": "./photos/Landscape/lake_serene (11 of 24).jpg"
+      "placeholder_path": "./photos/Places/fremont_06-09-2019-0996-1200px.placeholder.jpg",
+      "path": "./photos/Places/fremont_06-09-2019-0996-1200px.jpg"
     }
   ],
   "People": [
     {
       "height": 1200,
-      "compressed_path": "./photos/People/untitled shoot-021-Edit-1200px.min.jpg",
+      "compressed_path": "./photos/People/josh_grad-2-1200px.min.jpg",
       "width": 960,
       "compressed": false,
-      "placeholder_path": "./photos/People/untitled shoot-021-Edit-1200px.placeholder.jpg",
-      "path": "./photos/People/untitled shoot-021-Edit-1200px.jpg"
+      "placeholder_path": "./photos/People/josh_grad-2-1200px.placeholder.jpg",
+      "path": "./photos/People/josh_grad-2-1200px.jpg"
+    },
+    {
+      "height": 743,
+      "compressed_path": "./photos/People/pikeppl_5-19-2019 (11 of 19)-1200px.min.jpg",
+      "width": 1200,
+      "compressed": false,
+      "placeholder_path": "./photos/People/pikeppl_5-19-2019 (11 of 19)-1200px.placeholder.jpg",
+      "path": "./photos/People/pikeppl_5-19-2019 (11 of 19)-1200px.jpg"
+    },
+    {
+      "height": 800,
+      "compressed_path": "./photos/People/vj4w (2 of 9)-1200px.min.jpg",
+      "width": 1200,
+      "compressed": false,
+      "placeholder_path": "./photos/People/vj4w (2 of 9)-1200px.placeholder.jpg",
+      "path": "./photos/People/vj4w (2 of 9)-1200px.jpg"
+    },
+    {
+      "height": 1200,
+      "compressed_path": "./photos/People/jgo_s-2-1200px.min.jpg",
+      "width": 960,
+      "compressed": false,
+      "placeholder_path": "./photos/People/jgo_s-2-1200px.placeholder.jpg",
+      "path": "./photos/People/jgo_s-2-1200px.jpg"
+    },
+    {
+      "height": 853,
+      "compressed_path": "./photos/People/pikeppl_5-19-2019 (12 of 19)-1200px.min.jpg",
+      "width": 1200,
+      "compressed": false,
+      "placeholder_path": "./photos/People/pikeppl_5-19-2019 (12 of 19)-1200px.placeholder.jpg",
+      "path": "./photos/People/pikeppl_5-19-2019 (12 of 19)-1200px.jpg"
+    },
+    {
+      "height": 960,
+      "compressed_path": "./photos/People/fremont_06-09-2019-0983-1200px.min.jpg",
+      "width": 1200,
+      "compressed": false,
+      "placeholder_path": "./photos/People/fremont_06-09-2019-0983-1200px.placeholder.jpg",
+      "path": "./photos/People/fremont_06-09-2019-0983-1200px.jpg"
+    },
+    {
+      "height": 800,
+      "compressed_path": "./photos/People/20190303 (10 of 10)-1200px.min.jpg",
+      "width": 1200,
+      "compressed": false,
+      "placeholder_path": "./photos/People/20190303 (10 of 10)-1200px.placeholder.jpg",
+      "path": "./photos/People/20190303 (10 of 10)-1200px.jpg"
+    },
+    {
+      "height": 1158,
+      "compressed_path": "./photos/People/whidbey-18-1200px.min.jpg",
+      "width": 1200,
+      "compressed": false,
+      "placeholder_path": "./photos/People/whidbey-18-1200px.placeholder.jpg",
+      "path": "./photos/People/whidbey-18-1200px.jpg"
+    },
+    {
+      "height": 800,
+      "compressed_path": "./photos/People/20190603-0416-1200px.min.jpg",
+      "width": 1200,
+      "compressed": false,
+      "placeholder_path": "./photos/People/20190603-0416-1200px.placeholder.jpg",
+      "path": "./photos/People/20190603-0416-1200px.jpg"
+    },
+    {
+      "height": 960,
+      "compressed_path": "./photos/People/fremont_06-09-2019-0927-1200px.min.jpg",
+      "width": 1200,
+      "compressed": false,
+      "placeholder_path": "./photos/People/fremont_06-09-2019-0927-1200px.placeholder.jpg",
+      "path": "./photos/People/fremont_06-09-2019-0927-1200px.jpg"
     },
     {
       "height": 1200,
@@ -1087,6 +243,30 @@
       "compressed": false,
       "placeholder_path": "./photos/People/untitled shoot-041-1200px.placeholder.jpg",
       "path": "./photos/People/untitled shoot-041-1200px.jpg"
+    },
+    {
+      "height": 800,
+      "compressed_path": "./photos/People/20190603-0373-1200px.min.jpg",
+      "width": 1200,
+      "compressed": false,
+      "placeholder_path": "./photos/People/20190603-0373-1200px.placeholder.jpg",
+      "path": "./photos/People/20190603-0373-1200px.jpg"
+    },
+    {
+      "height": 652,
+      "compressed_path": "./photos/People/pike-place_06-09-2019-12-1200px.min.jpg",
+      "width": 1200,
+      "compressed": false,
+      "placeholder_path": "./photos/People/pike-place_06-09-2019-12-1200px.placeholder.jpg",
+      "path": "./photos/People/pike-place_06-09-2019-12-1200px.jpg"
+    },
+    {
+      "height": 800,
+      "compressed_path": "./photos/People/20190603-0384-1200px.min.jpg",
+      "width": 1200,
+      "compressed": false,
+      "placeholder_path": "./photos/People/20190603-0384-1200px.placeholder.jpg",
+      "path": "./photos/People/20190603-0384-1200px.jpg"
     }
   ]
 }
