@@ -1070,5 +1070,23 @@
       "placeholder_path": "./photos/Landscape/lake_serene (11 of 24).placeholder.jpg",
       "path": "./photos/Landscape/lake_serene (11 of 24).jpg"
     }
+  ],
+  "People": [
+    {
+      "height": 1200,
+      "compressed_path": "./photos/People/untitled shoot-021-Edit-1200px.min.jpg",
+      "width": 960,
+      "compressed": false,
+      "placeholder_path": "./photos/People/untitled shoot-021-Edit-1200px.placeholder.jpg",
+      "path": "./photos/People/untitled shoot-021-Edit-1200px.jpg"
+    },
+    {
+      "height": 1200,
+      "compressed_path": "./photos/People/untitled shoot-041-1200px.min.jpg",
+      "width": 927,
+      "compressed": false,
+      "placeholder_path": "./photos/People/untitled shoot-041-1200px.placeholder.jpg",
+      "path": "./photos/People/untitled shoot-041-1200px.jpg"
+    }
   ]
 }
