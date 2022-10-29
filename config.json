@@ -9,20 +9,20 @@
       "placeholder_path": "./photos/Portrait/DSC_0960.placeholder.jpg"
     },
     {
-      "width": 3807,
-      "height": 2537,
-      "path": "./photos/Portrait/fullsizeoutput_fb6.jpg",
-      "compressed_path": "./photos/Portrait/fullsizeoutput_fb6.min.jpg",
+      "width": 2865,
+      "height": 3781,
+      "path": "./photos/Portrait/DSC_3985.jpg",
+      "compressed_path": "./photos/Portrait/DSC_3985.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Portrait/fullsizeoutput_fb6.placeholder.jpg"
+      "placeholder_path": "./photos/Portrait/DSC_3985.placeholder.jpg"
     },
     {
-      "width": 3816,
-      "height": 5724,
-      "path": "./photos/Portrait/DSC_4026.jpg",
-      "compressed_path": "./photos/Portrait/DSC_4026.min.jpg",
+      "width": 805,
+      "height": 1118,
+      "path": "./photos/Portrait/DSC_0731.jpg",
+      "compressed_path": "./photos/Portrait/DSC_0731.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Portrait/DSC_4026.placeholder.jpg"
+      "placeholder_path": "./photos/Portrait/DSC_0731.placeholder.jpg"
     },
     {
       "width": 3647,
@@ -41,12 +41,20 @@
       "placeholder_path": "./photos/Portrait/DSC_0927.placeholder.jpg"
     },
     {
-      "width": 3825,
-      "height": 4781,
-      "path": "./photos/Portrait/DSC_0950.jpg",
-      "compressed_path": "./photos/Portrait/DSC_0950.min.jpg",
+      "width": 978,
+      "height": 1080,
+      "path": "./photos/Portrait/DSC_0688.jpg",
+      "compressed_path": "./photos/Portrait/DSC_0688.min.jpg",
       "compressed": false,
-      "placeholder_path": "./photos/Portrait/DSC_0950.placeholder.jpg"
+      "placeholder_path": "./photos/Portrait/DSC_0688.placeholder.jpg"
+    },
+    {
+      "width": 2483,
+      "height": 3389,
+      "path": "./photos/Portrait/DSC_0198.jpg",
+      "compressed_path": "./photos/Portrait/DSC_0198.min.jpg",
+      "compressed": false,
+      "placeholder_path": "./photos/Portrait/DSC_0198.placeholder.jpg"
     }
   ],
   "Landscape": [
@@ -121,6 +129,14 @@
       "compressed_path": "./photos/Landscape/IMG_6958.min.jpg",
       "compressed": false,
       "placeholder_path": "./photos/Landscape/IMG_6958.placeholder.jpg"
+    },
+    {
+      "width": 3807,
+      "height": 2537,
+      "path": "./photos/Landscape/DSC_001.jpg",
+      "compressed_path": "./photos/Landscape/DSC_001.min.jpg",
+      "compressed": false,
+      "placeholder_path": "./photos/Landscape/DSC_001.placeholder.jpg"
     },
     {
       "width": 6000,
