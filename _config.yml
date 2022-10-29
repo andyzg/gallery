@@ -3,10 +3,10 @@
 #############################
 
 # The title that appears on the tab
-title: Andy Zhang's Gallery
+title: Eigen's Gallery
 
 # The title on the web page
-full_name: Andy Zhang
+full_name: Eigen Ott
 
 # The type of layout
 # Options: ROWS, SQUARES, COLUMNS
@@ -27,8 +27,7 @@ columns: 4
 # Integer: Max height for rows
 max_height: 400
 
-# Handle
-instagram: andy.fuji
+
 
 ######################
 # END OF CONFIG CODE #
@@ -42,10 +41,8 @@ name: Gallery
 description: Photography Portfolio
 
 # Your name, as you want it to appear underneath each post and in the footer
-author: Andy Zhang
+author: Eigen Ott
 
-# Your email if you want it to be linked on the contact page
-author_email: andzhng@gmail.com
 
 # The directory for category index pages. Change it to something else if
 # for example you want links like /categories/category1 instead of /category1
